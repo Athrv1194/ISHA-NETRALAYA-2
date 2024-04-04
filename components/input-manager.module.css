@@ -1,0 +1,157 @@
+.textColorModifier {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+}
+.fontPicker {
+  height: 100px;
+  width: 60.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroupIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.textSizeModifier {
+  height: 81.7px;
+  width: 49.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 26.699999999999815px 0 0;
+  box-sizing: border-box;
+}
+.nearWelfareCentre,
+.prabatPlaza2nd,
+.shivMandirRoad {
+  margin: 0;
+}
+.prabatPlaza2ndContainer {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.lineAlignment,
+.textFlowManager,
+.textTransformer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.textTransformer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 18.300000000000185px 0 0;
+  box-sizing: border-box;
+  min-width: 260px;
+}
+.lineAlignment,
+.textFlowManager {
+  flex-direction: row;
+}
+.lineAlignment {
+  width: 525.5px;
+  justify-content: flex-start;
+  gap: 7.700000000000728px;
+}
+.textFlowManager {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.doctorAvailability {
+  width: 263.1px;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 27.51px;
+  display: inline-block;
+  color: var(--color-dimgray-400);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.arcsCreator,
+.inputManager,
+.positionCalculator {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.arcsCreator {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  min-width: 387px;
+  margin-left: -2.1px;
+}
+.inputManager,
+.positionCalculator {
+  flex-direction: row;
+}
+.positionCalculator {
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 647px;
+  row-gap: 20px;
+}
+.inputManager {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 58px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgreen);
+  font-family: var(--font-montserrat);
+  position: relative;
+  top: -95px;
+}
+@media screen and (max-width: 1050px) {
+  .lineAlignment {
+    flex: 1;
+  }
+  .positionCalculator {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .arcsCreator {
+    gap: 45px 90px;
+    margin-left: 0;
+  }
+  .positionCalculator {
+    min-width: 100%;
+  }
+  .inputManager {
+    gap: 0 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lineAlignment {
+    flex-wrap: wrap;
+  }
+  .doctorAvailability {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .arcsCreator {
+    gap: 22px 90px;
+    min-width: 100%;
+  }
+}

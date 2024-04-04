@@ -1,0 +1,272 @@
+.onlineAppointmentCardChild {
+  height: 479px;
+  width: 518px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.algorithmNodeChild {
+  width: 375px;
+  height: 375px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  max-width: 100%;
+}
+.ishaNetralaya {
+  height: 96px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.sequenceNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.arrayNode {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border: 0.5px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.scalarNode {
+  width: 214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+}
+.asOneOf {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.patternNode,
+.vectorNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorNode {
+  gap: var(--gap-4xl);
+  margin-top: -48px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-500);
+}
+.patternNode {
+  flex: 1;
+}
+.setNode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.onlineAppointment {
+  position: absolute;
+  top: 4px;
+  left: 23px;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  z-index: 3;
+}
+.mapNode {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.dictionaryNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.algorithmNode,
+.onlineAppointmentCard {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.algorithmNode {
+  height: 375px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-59xl) var(--padding-56xl) var(--padding-64xl);
+  gap: var(--gap-64xl);
+  z-index: 1;
+}
+.onlineAppointmentCard {
+  border-radius: var(--br-lgi);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-33xl) var(--padding-52xl) var(--padding-33xl)
+    var(--padding-53xl);
+  background-image: url(/rectangle-715@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 337px;
+}
+.youtubeAndVimeoVideo,
+.ytChild {
+  align-self: stretch;
+  position: relative;
+}
+.ytChild {
+  height: 471px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.youtubeAndVimeoVideo {
+  height: 220px;
+  z-index: 1;
+  top: 20px;
+}
+.heresHowSurgeons {
+  height: 53px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.queryNode {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.heap,
+.queryNode,
+.treeNode,
+.yt {
+  display: flex;
+  max-width: 100%;
+}
+.yt {
+  width: 360px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-115xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  min-width: 360px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.heap,
+.treeNode {
+  flex-direction: row;
+}
+.treeNode {
+  width: 1056px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-159xl);
+}
+.heap {
+  width: 1426px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-109xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .yt {
+    flex: 1;
+  }
+  .treeNode {
+    flex-wrap: wrap;
+    gap: 178px 89px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .onlineAppointmentCard {
+    padding: var(--padding-15xl) var(--padding-16xl) var(--padding-15xl)
+      var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .yt {
+    padding-bottom: var(--padding-68xl);
+    box-sizing: border-box;
+  }
+  .treeNode {
+    gap: 178px 44px;
+  }
+  .heap {
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetralaya {
+    font-size: var(--font-size-base);
+  }
+  .algorithmNode {
+    gap: 41px 83px;
+    padding: var(--padding-32xl) var(--padding-xl) var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .onlineAppointmentCard,
+  .yt {
+    min-width: 100%;
+  }
+  .yt {
+    gap: 32px 64px;
+  }
+  .treeNode {
+    gap: 178px 22px;
+  }
+}

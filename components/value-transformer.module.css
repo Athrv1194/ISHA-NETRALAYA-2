@@ -1,0 +1,220 @@
+.outputSelector {
+  width: 64px;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--color-darkgreen);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.inputAggregator {
+  margin-left: -3722px;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-742xl) 0 0 0;
+  box-sizing: border-box;
+}
+.ourVisionaryLeader,
+.sirImageIcon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.ourVisionaryLeader {
+  width: 663px;
+  top: 99px;
+  right: -96px;
+  font-size: inherit;
+  letter-spacing: 0.15em;
+  line-height: 134%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.sirImageIcon {
+  height: 778px;
+  width: 621px;
+  top: -104px;
+  left: -246px;
+  object-fit: cover;
+}
+.container {
+  width: 995px;
+  height: 759px;
+  position: relative;
+  background-color: var(--color-floralwhite);
+  display: none;
+  max-width: 100%;
+}
+.guidingLightIn {
+  line-height: 5px;
+}
+.guidingLightInEyeCare {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-olivedrab-100);
+}
+.blankLine1 {
+  line-height: 27.5px;
+}
+.blankLine {
+  margin: 0;
+}
+.drSmiteshShah1 {
+  line-height: 27.5px;
+}
+.drSmiteshShah {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkolivegreen-400);
+}
+.blankLine3 {
+  line-height: 27.5px;
+}
+.blankLine2 {
+  margin: 0;
+}
+.mbbsDoDnbFcp1 {
+  line-height: 27.5px;
+}
+.mbbsDoDnbFcp {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-400);
+}
+.cataractRetinaSurgeon1 {
+  line-height: 27.5px;
+}
+.cataractRetinaSurgeon {
+  margin: 0;
+}
+.guidingLightInContainer {
+  align-self: stretch;
+  height: 296px;
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dataJoiner {
+  width: 64px;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--color-darkgreen);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineConnector {
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.readOurStory {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 23px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 1;
+}
+.outputFormatter,
+.valueMapper {
+  display: flex;
+  align-items: flex-start;
+}
+.outputFormatter {
+  width: 277px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkslategray-100);
+}
+.valueMapper {
+  flex: 1;
+  background-color: var(--color-floralwhite);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-282xl) var(--padding-70xl) var(--padding-100xl)
+    var(--padding-422xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-mid);
+  color: var(--color-dimgray-400);
+  font-family: var(--font-montserrat);
+}
+.errorHandler,
+.valueTransformer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.errorHandler {
+  width: 995px;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.valueTransformer {
+  width: 5055px;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-302xl);
+  box-sizing: border-box;
+  max-width: 351%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .valueMapper {
+    padding-left: var(--padding-201xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .valueTransformer {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: var(--padding-190xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inputAggregator {
+    padding-top: var(--padding-476xl);
+    box-sizing: border-box;
+  }
+  .ourVisionaryLeader {
+    font-size: var(--font-size-21xl);
+    line-height: 54px;
+  }
+  .valueMapper {
+    padding: var(--padding-177xl) var(--padding-3xl) var(--padding-58xl)
+      var(--padding-91xl);
+    box-sizing: border-box;
+  }
+  .valueTransformer {
+    padding-bottom: var(--padding-117xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .inputAggregator {
+    padding-top: var(--padding-303xl);
+    box-sizing: border-box;
+  }
+  .ourVisionaryLeader {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+}

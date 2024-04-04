@@ -1,0 +1,89 @@
+.whyChooseIsha {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.whyChooseIshaNetralayaForWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xl);
+}
+.advancedDiagnosticToolsWe,
+.expertiseAndExperienceOur1,
+.patientCentricApproachEach,
+.servingTheCommunityIsha {
+  margin-bottom: 0;
+}
+.expertiseAndExperienceOur {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.expertiseAndExperienceOurContainer {
+  width: 783px;
+  height: 361px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameParent,
+.joinUsNow {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.joinUsNow {
+  width: 1103px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-356xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .joinUsNow {
+    padding-bottom: var(--padding-225xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whyChooseIsha {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whyChooseIsha {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .frameParent {
+    gap: 19px 38px;
+  }
+  .joinUsNow {
+    padding-bottom: var(--padding-140xl);
+    box-sizing: border-box;
+  }
+}

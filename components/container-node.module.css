@@ -1,0 +1,582 @@
+.bestEyeDoctors {
+  margin: 0;
+  height: 93px;
+  width: 664px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  display: inline-block;
+  max-width: 100%;
+}
+.joinerNode {
+  width: 1214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discountChild {
+  align-self: stretch;
+  height: 491px;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-darkkhaki);
+  box-sizing: border-box;
+  display: none;
+}
+.drSmiteshShah,
+.image22Icon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image22Icon {
+  align-self: stretch;
+  height: 245px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.drSmiteshShah {
+  margin: 0;
+  width: 251px;
+  height: 22px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.chiefMedicalDirector,
+.mbbsDoDnb {
+  margin: 0;
+}
+.chiefMedicalDirectorContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.09em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.functionLibraryNode {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-montserrat);
+}
+.conditionBuilderNode,
+.functionLibraryNode,
+.nestedMapNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.conditionBuilderNode {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.nestedMapNode {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-mid);
+  box-sizing: border-box;
+  font-family: var(--font-playfair-display);
+}
+.workflowNode {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.flowControlNode {
+  width: 59px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.maskGroupIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.dataAggregator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.thanekalyanpuneAtTimes {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 2;
+}
+.pathFinderNode,
+.treeBuilderNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.treeBuilderNode {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgreen);
+}
+.bookAnAppointment {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.07em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+}
+.sequenceProcessorChild {
+  width: 37px;
+  height: 2px;
+  position: relative;
+  object-fit: contain;
+}
+.sequenceProcessor {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -12px;
+}
+.inputSelector,
+.moreInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.moreInfo {
+  width: 225px;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 1;
+}
+.inputSelector {
+  align-self: stretch;
+  justify-content: flex-end;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-100);
+}
+.filterSetNode,
+.transformSetNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.transformSetNode {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.filterSetNode {
+  width: 380px;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.discount,
+.discountItem {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-darkkhaki);
+  box-sizing: border-box;
+}
+.discount {
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xl);
+  gap: var(--gap-9xl);
+  max-width: 100%;
+  font-family: var(--font-montserrat);
+}
+.discountItem {
+  align-self: stretch;
+  height: 491px;
+  position: relative;
+  display: none;
+}
+.drSiddharthSheth,
+.image26Icon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image26Icon {
+  align-self: stretch;
+  height: 232px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.drSiddharthSheth {
+  margin: 0;
+  width: 251px;
+  height: 22px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.dnbFicoFmrf,
+.pediatricSquintNeuro {
+  margin: 0;
+}
+.pediatricSquintNeuroContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.09em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.connectionNetworkNode,
+.drSiddharthShethParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connectionNetworkNode {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-montserrat);
+}
+.drSiddharthShethParent {
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.stackNode {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+}
+.queueNode {
+  width: 59px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.maskGroupIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.heapNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.thanePune {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 206px;
+  cursor: pointer;
+  z-index: 2;
+}
+.pipelineNode,
+.pipelineNodeWrapper,
+.priorityQueueNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priorityQueueNode {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.pipelineNode,
+.pipelineNodeWrapper {
+  max-width: 100%;
+}
+.pipelineNode {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.pipelineNodeWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.bookAnAppointment1 {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.07em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+}
+.directedGraphNodeChild {
+  width: 37px;
+  height: 2px;
+  position: relative;
+  object-fit: contain;
+}
+.directedGraphNode {
+  height: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -12px;
+}
+.directedGraphNode,
+.frameGroup,
+.moreInfo1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.moreInfo1 {
+  width: 225px;
+  flex-direction: row;
+  align-items: flex-start;
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-100);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgreen);
+  font-family: var(--font-montserrat);
+}
+.discount1,
+.discountInner,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-44xl);
+}
+.discount1,
+.discountInner {
+  width: 381px;
+  flex-direction: row;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.discount1 {
+  width: 402px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-darkkhaki);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-2xl);
+  gap: var(--gap-22xl);
+  z-index: 1;
+}
+.selectorNode,
+.slicerNode {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.slicerNode {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 16.5px;
+  min-height: 1000px;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+}
+.selectorNode {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.costFunctionChild {
+  height: 51px;
+  width: 288px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  display: none;
+}
+.moreDoctors {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  z-index: 1;
+}
+.maskGroupIcon2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: contain;
+  min-height: 28px;
+  z-index: 1;
+}
+.costFunction,
+.gradientCalculator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.costFunction {
+  background-color: var(--color-dimgray-200);
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-18xl) var(--padding-2xs)
+    var(--padding-28xl);
+  gap: var(--gap-2xs);
+  white-space: nowrap;
+}
+.gradientCalculator {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.nestingNode {
+  width: 1242px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.containerNode {
+  width: 1408px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-219xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-51xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1200px) {
+  .containerNode {
+    padding-bottom: var(--padding-136xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .bestEyeDoctors {
+    font-size: var(--font-size-37xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .selectorNode {
+    gap: 15px 31px;
+  }
+  .nestingNode {
+    gap: 26px 52px;
+  }
+  .containerNode {
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestEyeDoctors {
+    font-size: var(--font-size-23xl);
+  }
+  .drSmiteshShah {
+    font-size: var(--font-size-lg);
+  }
+  .transformSetNode {
+    gap: 17px 34px;
+  }
+  .drSiddharthSheth {
+    font-size: var(--font-size-lg);
+  }
+  .priorityQueueNode {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 31px 63px;
+  }
+  .discount1 {
+    gap: 20px 41px;
+  }
+  .costFunction {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,67 @@
+.thaneCoralSquare {
+  font-family: var(--font-montserrat);
+}
+.thaneCoralSquareIcoral {
+  margin: 0;
+}
+.thaneCoralSquareContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  padding-right: var(--padding-11xs);
+  z-index: 1;
+}
+.ambernath {
+  font-family: var(--font-montserrat);
+}
+.ishaNetralayaPrabat {
+  white-space: pre-wrap;
+}
+.ambernathIshaNetralayaPr {
+  margin: 0;
+}
+.ambernathIshaNetralayaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.ambernathIshaNetralayaPrWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.pune {
+  font-family: var(--font-montserrat);
+}
+.puneIshaNetralayaShopN {
+  margin: 0;
+}
+.puneIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.puneIshaNetralayaShopNWrapper,
+.thaneCoralSquareIcoralParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.puneIshaNetralayaShopNWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.thaneCoralSquareIcoralParent {
+  flex-direction: column;
+  gap: var(--gap-22xl);
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}

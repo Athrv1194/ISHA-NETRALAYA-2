@@ -1,0 +1,192 @@
+.appointmentInfoFrameChild {
+  width: 758px;
+  height: calc(100% - 54.9px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 54.9px;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+}
+.whatIsSmile {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.whatIsSmileSurgeryWrapper {
+  width: 362px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.assessmentAndDiagnosis {
+  margin: 0;
+  width: 381px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  top: -15px;
+}
+.atIshaNetralaya {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -168.9px;
+  right: -370px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.customisedTreatmentPlans {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  z-index: 1;
+  top: -14px;
+}
+.atIshaNetralayaTheJourneyParent {
+  align-self: stretch;
+  height: 25.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.ourTeamEnsures,
+.recognizingThatEach {
+  font-weight: 500;
+}
+.recognizingThatEachContainer {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -151.9px;
+  right: -470.6px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  display: inline-block;
+  z-index: 1;
+}
+.theSmileProcedure {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  z-index: 1;
+}
+.recognizingThatEachPatientParent {
+  height: 25.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.appointmentInfoFrame,
+.assessmentAndDiagnosisParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.assessmentAndDiagnosisParent {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: var(--gap-146xl);
+  min-height: 459px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.appointmentInfoFrame {
+  width: 775px;
+  padding: var(--padding-296xl) var(--padding-161xl) 31.90000000000009px;
+  position: relative;
+  gap: var(--gap-251xl);
+  min-height: 1165px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1200px) {
+  .appointmentInfoFrame {
+    padding-top: var(--padding-186xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .assessmentAndDiagnosis,
+  .customisedTreatmentPlans,
+  .theSmileProcedure,
+  .whatIsSmile {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .appointmentInfoFrame {
+    gap: 135px 270px;
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .appointmentInfoFrame {
+    padding-top: var(--padding-114xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .assessmentAndDiagnosis,
+  .customisedTreatmentPlans,
+  .theSmileProcedure,
+  .whatIsSmile {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .assessmentAndDiagnosisParent {
+    gap: 82px 165px;
+  }
+  .appointmentInfoFrame {
+    gap: 67px 270px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

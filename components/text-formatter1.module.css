@@ -1,0 +1,96 @@
+.audioNode {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+}
+.rectangleBuilder,
+.videoNode {
+  height: 100px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.videoNode {
+  height: 81.5px;
+  width: 69px;
+  padding: var(--padding-lg-5) 0 0;
+  box-sizing: border-box;
+}
+.bookAnAppointment {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.imageProcessor,
+.lineGenerator,
+.polygonMaker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.polygonMaker {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+  min-width: 158px;
+}
+.imageProcessor,
+.lineGenerator {
+  flex-direction: row;
+  max-width: 100%;
+}
+.lineGenerator {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0 12px;
+}
+.imageProcessor {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.workingHours {
+  width: 263.1px;
+  height: 32px;
+  position: relative;
+  line-height: 27.51px;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  top: 76px;
+}
+.textFormatter {
+  position: absolute;
+  top: 0;
+  left: 405px;
+  width: 402.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-75xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .bookAnAppointment,
+  .workingHours {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

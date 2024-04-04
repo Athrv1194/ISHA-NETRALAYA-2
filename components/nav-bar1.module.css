@@ -1,0 +1,297 @@
+.backgroundIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.maskGroupIcon {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.iSHAText {
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.icon,
+.isha {
+  cursor: pointer;
+  z-index: 1;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  width: 89px;
+  height: 55px;
+}
+.isha {
+  margin: 0;
+  height: 75px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.phoneEmailContainer {
+  width: 404px;
+  height: 38.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.netralaya {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.ishaNetralya {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 5.899999999999636px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.noteTextInstance {
+  height: 77px;
+  width: 434px;
+  position: relative;
+  max-width: 100%;
+}
+.fileNoteText {
+  height: 31px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.selfRegistration {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.ambernathBranch,
+.thaneCoralSquareBranch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thaneCoralSquareBranch {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 199px;
+}
+.ambernathBranch {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.iconFrame,
+.kalyaniBranch {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.kalyaniBranch {
+  width: 352px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.iconFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.glaucomaTreatment {
+  margin: 0;
+  height: 73px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.smileSurgery {
+  width: 739px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.glaucomaIsA {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.cataractLASIK,
+.servicesContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cataractLASIK {
+  width: 783px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.servicesContainer {
+  width: 1183px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.bgNavChild {
+  width: 170px;
+  height: 36px;
+  position: relative;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  z-index: 3;
+}
+.bgNav,
+.navBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bgNav {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-48xl) var(--padding-7xl) var(--padding-319xl)
+    var(--padding-111xl);
+  position: relative;
+  gap: var(--gap-198xl);
+}
+.navBar {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-80xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 1225px) {
+  .iconFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .bgNav,
+  .navBar {
+    box-sizing: border-box;
+  }
+  .bgNav {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-201xl);
+  }
+  .navBar {
+    padding-bottom: var(--padding-45xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .isha {
+    font-size: var(--font-size-10xl);
+  }
+  .glaucomaTreatment {
+    font-size: var(--font-size-25xl);
+  }
+  .bgNav,
+  .navBar {
+    box-sizing: border-box;
+  }
+  .bgNav {
+    gap: 108px 217px;
+    padding-left: var(--padding-46xl);
+  }
+  .navBar {
+    padding-bottom: var(--padding-23xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .isha {
+    font-size: var(--font-size-3xl);
+  }
+  .netralaya {
+    font-size: var(--font-size-lgi);
+  }
+  .ambernathBranch {
+    flex-wrap: wrap;
+  }
+  .glaucomaTreatment {
+    font-size: var(--font-size-14xl);
+  }
+  .bgNav {
+    gap: 54px 217px;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-124xl);
+    box-sizing: border-box;
+  }
+}

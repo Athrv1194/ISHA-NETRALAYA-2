@@ -1,0 +1,188 @@
+.sortNode {
+  width: 758px;
+  height: calc(100% - 217px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 217px;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+}
+.whyChooseIsha {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.lasikIsA {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -167.9px;
+  right: -350.4px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.suitableCandidatesFor {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  z-index: 1;
+  top: -36px;
+}
+.dataAggregator {
+  align-self: stretch;
+  height: 25.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.atLeast18,
+.freeFromCorneal,
+.notPregnantOr,
+.stableSpectacleRefraction {
+  margin-bottom: 0;
+}
+.atLeast18YearsOfAgeStabl {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.atLeast18Container {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -172.9px;
+  right: -463.7px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.theLasikProcedure {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  z-index: 1;
+}
+.inputProcessors,
+.outputDisplay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.outputDisplay {
+  height: 25.5px;
+  position: relative;
+}
+.inputProcessors {
+  height: 43px;
+  padding: 0 var(--padding-5xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.compositeNode {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-145xl);
+}
+.aggregateNode,
+.compositeNode,
+.searchNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aggregateNode {
+  width: 448px;
+  height: 250px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.searchNode {
+  flex-direction: column;
+  padding: var(--padding-288xl) var(--padding-164xl) var(--padding-175xl);
+  position: relative;
+  gap: var(--gap-468xl);
+  min-height: 1327px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1225px) {
+  .searchNode {
+    padding-top: var(--padding-181xl);
+    padding-bottom: var(--padding-107xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .searchNode {
+    gap: 243px 487px;
+    padding-left: var(--padding-72xl);
+    padding-right: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .suitableCandidatesFor,
+  .theLasikProcedure,
+  .whyChooseIsha {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .searchNode {
+    padding-top: var(--padding-111xl);
+    padding-bottom: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .suitableCandidatesFor,
+  .theLasikProcedure,
+  .whyChooseIsha {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .compositeNode {
+    gap: 82px 164px;
+  }
+  .searchNode {
+    gap: 122px 487px;
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

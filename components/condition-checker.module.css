@@ -1,0 +1,94 @@
+.inputProcessorIcon {
+  align-self: stretch;
+  height: 9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  top: -180px;
+}
+.ishaNetrayala {
+  width: 251px;
+  position: relative;
+  letter-spacing: 7px;
+  line-height: 29px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.decisionTreeBank {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-17xl) 0 var(--padding-35xl);
+}
+.ambernath {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+}
+.classifierBank {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  position: relative;
+  top: -160px;
+}
+.thresholdManager {
+  width: 1103px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.conditionChecker,
+.outputSelector,
+.thresholdManager {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.outputSelector {
+  width: 1172px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.conditionChecker {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-5xs) var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-500);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .ambernath {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetrayala {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .decisionTreeBank {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ambernath {
+    font-size: var(--font-size-11xl);
+  }
+}

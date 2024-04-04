@@ -1,0 +1,207 @@
+.maskGroupIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ifYouHave {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.span {
+  text-decoration: underline;
+}
+.a {
+  color: inherit;
+}
+.span1 {
+  text-decoration: underline;
+}
+.a1 {
+  color: inherit;
+}
+.span2 {
+  text-decoration: underline;
+}
+.a2 {
+  color: inherit;
+}
+.span3 {
+  text-decoration: underline;
+}
+.a3 {
+  color: inherit;
+}
+.thaneCorelSquare022258 {
+  margin: 0;
+}
+.span4 {
+  text-decoration: underline;
+}
+.a4 {
+  color: inherit;
+}
+.thaneDevCorpora0224974 {
+  margin: 0;
+}
+.span5 {
+  text-decoration: underline;
+}
+.a5 {
+  color: inherit;
+}
+.span6 {
+  text-decoration: underline;
+}
+.a6 {
+  color: inherit;
+}
+.kalyanw773889751402516 {
+  margin: 0;
+}
+.span7 {
+  text-decoration: underline;
+}
+.a7 {
+  color: inherit;
+}
+.ambernathE8976746053 {
+  margin: 0;
+}
+.span8 {
+  text-decoration: underline;
+}
+.a8 {
+  color: inherit;
+}
+.pune09172725903 {
+  margin: 0;
+}
+.thaneCorelSquareContainer {
+  height: 106px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.branchHeader,
+.thaneCorelSquareFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.thaneCorelSquareFrame {
+  width: 619px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-montserrat);
+}
+.branchHeader {
+  width: 720px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.branchInfoText {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 316px;
+  z-index: 1;
+}
+.onlineAppointment {
+  margin: 0;
+  position: absolute;
+  top: 11px;
+  left: 42px;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 304px;
+  z-index: 2;
+}
+.branchDetailsContentFrame {
+  height: 51px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.becomeAMember,
+.branchDetailsContentFrameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.branchDetailsContentFrameWrapper {
+  width: 348px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-mid);
+  color: var(--color-darkgreen);
+  font-family: var(--font-montserrat);
+}
+.becomeAMember {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-99xl) var(--padding-41xl) var(--padding-14xl);
+  position: relative;
+  gap: var(--gap-74xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .ifYouHave {
+    font-size: var(--font-size-21xl);
+  }
+  .becomeAMember {
+    gap: 46px 93px;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .becomeAMember {
+    padding-top: var(--padding-58xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ifYouHave {
+    font-size: var(--font-size-11xl);
+  }
+  .becomeAMember {
+    gap: 23px 93px;
+  }
+}

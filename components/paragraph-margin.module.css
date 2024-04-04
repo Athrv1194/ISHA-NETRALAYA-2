@@ -1,0 +1,163 @@
+.horizontalPadding {
+  width: 758px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+}
+.areVitalAs,
+.earlyDetectionAnd {
+  font-weight: 500;
+}
+.earlyDetectionAndContainer {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: 38.1px;
+  right: -242.6px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  display: inline-block;
+  z-index: 1;
+}
+.theImportanceOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+  top: -21px;
+}
+.treatmentTypes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.treatmentAndManagement {
+  margin: 0;
+  width: 411px;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.containerHeight,
+.verticalPadding {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.containerHeight {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-241xl);
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.verticalPadding {
+  align-self: stretch;
+  height: 334.1px;
+  flex-direction: row;
+  position: relative;
+}
+.educatingParentsAnd {
+  margin: 0;
+  width: 489px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  top: 30px;
+}
+.paragraphMargin {
+  width: 910px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-300xl) var(--padding-163xl) var(--padding-22xl)
+    var(--padding-161xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-342xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .paragraphMargin {
+    padding-top: var(--padding-188xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .educatingParentsAnd,
+  .theImportanceOf,
+  .treatmentAndManagement {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .paragraphMargin {
+    gap: 180px 361px;
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .containerHeight {
+    gap: 130px 260px;
+  }
+  .paragraphMargin {
+    padding-top: var(--padding-116xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theImportanceOf,
+  .treatmentAndManagement {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .containerHeight {
+    gap: 65px 260px;
+  }
+  .educatingParentsAnd {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .paragraphMargin {
+    gap: 90px 361px;
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

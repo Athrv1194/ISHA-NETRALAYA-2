@@ -1,0 +1,325 @@
+.sortingNodeIcon {
+  height: 311.2px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.dataMerger {
+  width: 116px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.centersOfExcellence,
+.eyeCareServices {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.eyeCareServices {
+  z-index: 2;
+}
+.matrixOperations,
+.numberCruncher {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.matrixOperations {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.numberCruncher {
+  align-self: stretch;
+  flex-direction: column;
+}
+.brighteningSightsIn {
+  height: 89px;
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.treeBuilder {
+  width: 527px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-montserrat);
+}
+.button1,
+.onlineAppointment {
+  position: absolute;
+  margin: 0 !important;
+}
+.button1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dimgray-200);
+  cursor: pointer;
+}
+.onlineAppointment {
+  top: calc(50% - 13.5px);
+  left: calc(50% - 116.5px);
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 51px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.patternMatcher,
+.stackProcessor,
+.textParser {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stackProcessor {
+  width: 313px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.patternMatcher,
+.textParser {
+  flex-direction: column;
+  max-width: 100%;
+}
+.textParser {
+  align-self: stretch;
+  gap: var(--gap-13xl-5);
+}
+.patternMatcher {
+  flex: 1;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.thaneCityIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  max-height: 100%;
+  width: 296px;
+  object-fit: cover;
+  z-index: 1;
+}
+.thaneCity {
+  position: absolute;
+  top: 233px;
+  left: 5px;
+  letter-spacing: 2px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  width: 299px;
+  height: 18px;
+  z-index: 2;
+}
+.clickHere {
+  position: absolute;
+  top: 251px;
+  left: 12px;
+  font-size: var(--font-size-base);
+  line-height: 26.75px;
+  font-family: var(--font-playfair-display);
+  color: var(--color-white);
+  display: inline-block;
+  width: 272px;
+  height: 17px;
+  z-index: 3;
+}
+.graphNode {
+  height: 286px;
+  width: 304px;
+  position: relative;
+  min-width: 304px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-montserrat);
+}
+.searchNode,
+.valueTransformer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.searchNode {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-8xl);
+}
+.valueTransformer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26.80000000000001px;
+  min-width: 621px;
+}
+.dFSAlgorithm {
+  height: 881px;
+  width: 1442px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: -1108px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kalyanCityIcon {
+  height: 431px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.bellmanFordAlgorithm {
+  height: 100%;
+  width: 401px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.floydWarshallAlgorithm {
+  width: 400px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-486xl) 0;
+  position: relative;
+  min-width: 400px;
+}
+.filterNode,
+.floydWarshallAlgorithm,
+.logicOperator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logicOperator {
+  width: 1392px;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-base);
+}
+.filterNode {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-196xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1225px) {
+  .floydWarshallAlgorithm,
+  .kalyanCityIcon {
+    flex: 1;
+  }
+  .logicOperator {
+    flex-wrap: wrap;
+  }
+  .filterNode {
+    padding-bottom: var(--padding-121xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .graphNode {
+    flex: 1;
+  }
+  .searchNode {
+    flex-wrap: wrap;
+  }
+  .floydWarshallAlgorithm {
+    padding-bottom: var(--padding-309xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .centersOfExcellence {
+    font-size: var(--font-size-21xl);
+  }
+  .textParser {
+    gap: 16px 32.5px;
+  }
+  .patternMatcher,
+  .valueTransformer {
+    min-width: 100%;
+  }
+  .filterNode,
+  .floydWarshallAlgorithm {
+    padding-bottom: var(--padding-194xl);
+    box-sizing: border-box;
+  }
+  .filterNode {
+    padding-bottom: var(--padding-72xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .centersOfExcellence {
+    font-size: var(--font-size-11xl);
+  }
+  .eyeCareServices {
+    font-size: var(--font-size-lgi);
+  }
+  .thaneCity {
+    font-size: var(--font-size-base);
+    line-height: 10px;
+  }
+  .floydWarshallAlgorithm {
+    min-width: 100%;
+  }
+}

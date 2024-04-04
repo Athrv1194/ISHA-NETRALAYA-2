@@ -1,0 +1,154 @@
+.discountChild {
+  align-self: stretch;
+  height: 491px;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-darkkhaki);
+  box-sizing: border-box;
+  display: none;
+}
+.drSonalShah,
+.image23Icon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image23Icon {
+  align-self: stretch;
+  height: 233px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.drSonalShah {
+  margin: 0;
+  width: 251px;
+  height: 22px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.mbbsDomsDnb,
+.medicalDirector {
+  margin: 0;
+}
+.medicalDirectorMbbsContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.09em;
+  line-height: 19px;
+  font-weight: 500;
+  z-index: 1;
+}
+.medicalDirectorMbbsDoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-montserrat);
+}
+.drSonalShahParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.drSonalShahParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.bookAnAppointment {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.07em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameChild {
+  width: 37px;
+  height: 2px;
+  position: relative;
+  object-fit: contain;
+}
+.moreInfo,
+.moreInfoInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreInfoInner {
+  height: 10px;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -12px;
+}
+.moreInfo {
+  width: 225px;
+  flex-direction: row;
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+.discount,
+.discountInner,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-99xl);
+}
+.discount,
+.discountInner {
+  width: 379px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.discount {
+  width: 401px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-darkkhaki);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-2xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 450px) {
+  .drSonalShah {
+    font-size: var(--font-size-lg);
+  }
+  .frameParent {
+    gap: 59px 118px;
+  }
+  .discount {
+    gap: 20px 40px;
+  }
+}

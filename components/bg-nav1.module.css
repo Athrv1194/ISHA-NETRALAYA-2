@@ -1,0 +1,265 @@
+.backgroundIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.maskGroupIcon {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.loopNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.bgnavChild {
+  height: 36px;
+  width: 170px;
+  position: relative;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  z-index: 2;
+}
+.icon,
+.isha {
+  cursor: pointer;
+  z-index: 1;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  width: 89px;
+  height: 55px;
+}
+.isha {
+  margin: 0;
+  height: 75px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.mergerNode {
+  width: 404px;
+  height: 38.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.netralaya {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  background: linear-gradient(90deg, #fff 81%, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+}
+.terminalNode {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 5.899999999999636px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rootNode {
+  height: 77px;
+  width: 434px;
+  position: relative;
+  max-width: 100%;
+}
+.fileNoteText {
+  width: 32px;
+  height: 35px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.variableNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.399999999999636px 0 0;
+}
+.selfRegistration {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 199px;
+  z-index: 1;
+}
+.constantNode,
+.functionNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.constantNode {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.functionNode {
+  width: 352px;
+  flex-direction: column;
+  padding: 0 0 18.600000000000364px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.childNodes,
+.siblingNodes {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.childNodes {
+  width: 873px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.siblingNodes {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.wedLoveTo {
+  margin: 0;
+  width: 845px;
+  position: relative;
+  font-size: var(--font-size-36xl);
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-white);
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  z-index: 1;
+}
+.bgnav,
+.parentNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.parentNode {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-223xl);
+  min-width: 712px;
+}
+.bgnav {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-23xl) var(--padding-29xl) var(--padding-387xl)
+    var(--padding-112xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-100xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 1200px) {
+  .parentNode {
+    gap: 121px 242px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .isha {
+    font-size: var(--font-size-10xl);
+  }
+  .childNodes {
+    flex-wrap: wrap;
+  }
+  .wedLoveTo {
+    font-size: var(--font-size-25xl);
+  }
+  .parentNode {
+    min-width: 100%;
+  }
+  .bgnav {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-245xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .parentNode {
+    gap: 60px 242px;
+  }
+  .bgnav {
+    gap: var(--gap-40xl);
+    padding-left: var(--padding-46xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .isha {
+    font-size: var(--font-size-3xl);
+  }
+  .netralaya {
+    font-size: var(--font-size-lgi);
+  }
+  .constantNode {
+    flex-wrap: wrap;
+  }
+  .wedLoveTo {
+    font-size: var(--font-size-14xl);
+  }
+  .parentNode {
+    gap: 30px 242px;
+  }
+  .bgnav {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-153xl);
+    box-sizing: border-box;
+  }
+}

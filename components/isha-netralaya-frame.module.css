@@ -1,0 +1,381 @@
+.ishaNetralaya,
+.whyChooseUs {
+  position: relative;
+  display: inline-block;
+}
+.ishaNetralaya {
+  width: 271px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 600;
+  z-index: 2;
+}
+.whyChooseUs {
+  margin: 0;
+  align-self: stretch;
+  height: 110px;
+  font-size: var(--font-size-53xl);
+  letter-spacing: 0.1em;
+  line-height: 76px;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-white);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.kalyaniFrame {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyrightFrame {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  z-index: 1;
+}
+.copyrightFrameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.cuttingEdgeTechnologyPione {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 337px;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourDoctorsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.frameChild {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  z-index: 1;
+}
+.expertTeamFrameInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.expertTeam25Highly {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 337px;
+  max-width: 100%;
+  z-index: 1;
+}
+.expertTeamFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.frameItem {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  z-index: 1;
+}
+.expertTeamFrameChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.provenExcellenceOver1500 {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 337px;
+  max-width: 100%;
+  z-index: 1;
+}
+.expertTeamFrame1,
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.frameContainer {
+  flex-direction: column;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
+.frameInner {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  z-index: 1;
+}
+.ourDoctorsFrameInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.affordabilityPremiumEyeCar {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 337px;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourDoctorsFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.ellipseDiv {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgreen);
+  z-index: 1;
+}
+.ourDoctorsFrameChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.communityCommitmentOurChar {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 337px;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourDoctorsFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.homeLatestUpdatesFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.contactUsFrame,
+.homeLatestUpdatesFrame,
+.maskGroupFrame,
+.ourBranchesFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactUsFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray-200);
+}
+.maskGroupFrame,
+.ourBranchesFrame {
+  flex-direction: column;
+}
+.ourBranchesFrame {
+  align-self: stretch;
+  gap: var(--gap-60xl);
+  position: relative;
+    top: 47px;
+}
+.maskGroupFrame {
+  width: 545px;
+  box-sizing: border-box;
+  min-width: 545px;
+}
+.maskGroupIcon {
+  height: 100%;
+  width: 1442px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -709px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.image21Icon {
+  height: 759px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.ishaNetralayaFrame,
+.maskGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.maskGroup {
+  flex: 1;
+  position: relative;
+  min-width: 476px;
+}
+.ishaNetralayaFrame {
+  width: 1360px;
+  padding: 0 0 var(--padding-77xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-44xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1100px) {
+  .maskGroupFrame {
+    flex: 1;
+  }
+  .ishaNetralayaFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .whyChooseUs {
+    font-size: var(--font-size-39xl);
+    line-height: 61px;
+  }
+  .ishaNetralayaFrame {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameContainer {
+    gap: 20px 40px;
+  }
+  .homeLatestUpdatesFrame {
+    gap: 17px 34px;
+  }
+  .ourBranchesFrame {
+    gap: 39px 79px;
+  }
+  .maskGroupFrame {
+    padding-top: var(--padding-56xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .maskGroup {
+    min-width: 100%;
+  }
+  .ishaNetralayaFrame {
+    gap: 63px 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetralaya {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .whyChooseUs {
+    font-size: var(--font-size-24xl);
+    line-height: 46px;
+  }
+  .cuttingEdgeTechnologyPione {
+    min-width: 100%;
+  }
+  .ourDoctorsFrame {
+    flex-wrap: wrap;
+  }
+  .expertTeam25Highly {
+    min-width: 100%;
+  }
+  .expertTeamFrame {
+    flex-wrap: wrap;
+  }
+  .provenExcellenceOver1500 {
+    min-width: 100%;
+  }
+  .expertTeamFrame1 {
+    flex-wrap: wrap;
+  }
+  .affordabilityPremiumEyeCar {
+    min-width: 100%;
+  }
+  .ourDoctorsFrame1 {
+    flex-wrap: wrap;
+  }
+  .communityCommitmentOurChar {
+    min-width: 100%;
+  }
+  .ourDoctorsFrame2 {
+    flex-wrap: wrap;
+  }
+  .ourBranchesFrame {
+    gap: 20px 79px;
+  }
+  .ishaNetralayaFrame {
+    gap: 63px 16px;
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

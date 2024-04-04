@@ -1,0 +1,428 @@
+.facebookAltSvgrepoCom1Icon,
+.twitterSvgrepoCom1Icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookAltSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+}
+.instagramAlt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.linkedinSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.instagramAlt1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.instagramSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookAlt,
+.instagramAlt2,
+.linkedInAlt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instagramAlt2 {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.facebookAlt,
+.linkedInAlt {
+  flex-direction: column;
+}
+.linkedInAlt {
+  gap: var(--gap-11xl);
+}
+.facebookAlt {
+  padding: var(--padding-131xl) 0 0;
+}
+.attendingATrade {
+  height: 256.4px;
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 100%;
+}
+.foodSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.iconLogoWhite3 {
+  position: absolute;
+  top: 108.6px;
+  left: 324px;
+  width: 102px;
+  height: 102px;
+  z-index: 1;
+}
+.image {
+  align-self: stretch;
+  height: 366.3px;
+  position: relative;
+  background-image: url(/image@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.attending,
+.iconLogo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.attending {
+  flex: 1;
+  flex-direction: column;
+  gap: 14.200000000000728px;
+}
+.iconLogo {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-slategray);
+}
+.microsoftPatchMana {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.recognizingTheSymptoms {
+  margin: 0;
+}
+.blurredVision,
+.changesInColor,
+.difficultySeeingAt,
+.floatersOrSpots,
+.visionLossOr {
+  margin-bottom: 0;
+}
+.blurredVisionFloatersOrSpo {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.ifYouExperience {
+  margin: 0;
+}
+.lastMonthMyContainer {
+  align-self: stretch;
+  height: 142.4px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.doctorsArticlesBlogs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.food {
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.apartFromSymptoms,
+.food {
+  margin: 0;
+}
+.cataractsCloudingOfThe,
+.diabeticMacularEdema,
+.diabeticRetinopathyDamageT1 {
+  margin-bottom: 0;
+}
+.diabeticRetinopathyDamageT {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.chineseToJapaneseContainer {
+  height: 142.4px;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 100%;
+}
+.contouraVision {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.lASISurgery {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-5xl);
+}
+.homePage,
+.lASISurgery,
+.latestUpdates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.latestUpdates {
+  flex: 1;
+  flex-direction: column;
+  gap: 137.5999999999999px;
+}
+.homePage {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 101.50000000000044px;
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.food1 {
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.earlyDiagnosisOf,
+.food1 {
+  margin: 0;
+}
+.dilatedEyeExaminationBy,
+.fundusPhotographyHighResol,
+.opticalCoherenceTomography {
+  margin-bottom: 0;
+}
+.dilatedEyeExaminationByDi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.chineseToJapaneseContainer1 {
+  align-self: stretch;
+  height: 170.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.aboutUs,
+.pediatricOphthalmology {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pediatricOphthalmology {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.aboutUs {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 108.00000000000044px;
+  box-sizing: border-box;
+}
+.food2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.maharashtraBoastsStateOfTh {
+  margin: 0;
+}
+.intravitrealInjectionsMedic1,
+.laserPhotocoagulationAProc {
+  margin-bottom: 0;
+}
+.intravitrealInjectionsMedic {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.chineseToJapaneseContainer2 {
+  align-self: stretch;
+  height: 170.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.copyrightInfo {
+  width: 750px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.copyrightInfo,
+.imageContainer,
+.logoWhite,
+.socialMediaLinks {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.imageContainer {
+  width: 763px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 51.099999999999454px;
+}
+.logoWhite,
+.socialMediaLinks {
+  flex-direction: row;
+}
+.logoWhite {
+  width: 945px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.socialMediaLinks {
+  width: 1255px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1000px) {
+  .microsoftPatchMana {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .latestUpdates {
+    gap: 69px 137.5999999999999px;
+  }
+  .logoWhite {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .homePage {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .facebookAlt {
+    padding-top: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+  .attendingATrade {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .microsoftPatchMana {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .food {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .latestUpdates {
+    gap: 34px 137.5999999999999px;
+  }
+  .food1,
+  .food2 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .imageContainer {
+    gap: 26px 51.099999999999454px;
+  }
+}

@@ -1,0 +1,476 @@
+.firstName {
+  width: 103px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-300);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 1px;
+  left: 0.6px;
+  width: 219px;
+  height: 46px;
+  object-fit: contain;
+  z-index: 4;
+  text-align: center;
+  border-color: #346d0f;
+}
+.firstNameLabel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.firstNameParent {
+  flex: 0.6284;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 42.60000000000037px var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 149px;
+}
+.lastName,
+.vectorIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 229.3px;
+  height: 52.2px;
+  z-index: 2;
+}
+.lastName {
+  top: 1px;
+  left: 2.6px;
+  font-size: var(--font-size-smi);
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: #346d0f;
+  text-align: center;
+  display: inline-block;
+  width: 216px;
+  height: 46px;
+  z-index: 3;
+  border-color: #576915;
+}
+.firstNameInput {
+  height: 52.2px;
+  flex: 1;
+  position: relative;
+  min-width: 149px;
+}
+.bookingFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  gap: 11.700000000000728px;
+}
+.branchVectorArrow {
+  height: calc(100% - 2.2px);
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 2.2px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.arrowsChevronBottom {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 3;
+}
+.arrowsChevronBottomWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.100000000000364px 0 0;
+}
+.selectBranch {
+  height: 51px;
+  width: 454px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-300);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+  top: -11px;
+  left: -15px;
+}
+.backgroundFrame {
+  align-self: stretch;
+  height: 54.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.699999999999818px var(--padding-5xl) 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-7xs);
+}
+.chevronDownIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.arrowsChevronBottom1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 3;
+}
+.branchSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.800000000000182px 0 0;
+}
+.selectSpecialties {
+  width: 458px;
+  height: 50px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-300);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+  top: -11px;
+  left: -47px;
+}
+.branchFrame,
+.emailInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.branchFrame {
+  flex: 1;
+  padding: var(--padding-xs) var(--padding-5xl) 12.199999999999818px;
+  position: relative;
+  gap: var(--gap-7xs);
+}
+.emailInput {
+  align-self: stretch;
+  padding: 0 0 3.199999999999818px var(--padding-12xs);
+}
+.vectorArrowTime {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emailIcon {
+  position: absolute;
+  top: 16px;
+  left: 24.1px;
+  width: 20.5px;
+  height: 20.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.appointmentDetailsFrame {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.emailAddress {
+  width: 300px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  line-height: 29.12px;
+  color: var(--color-dimgray-300);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.backgroundMaskGroup,
+.eMAILFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundMaskGroup {
+  flex: 1;
+  filter: drop-shadow(0 3px 10px rgba(52, 109, 15, 0.1));
+  padding: 11.699999999999818px var(--padding-35xl) 16.300000000000182px;
+  position: relative;
+  gap: var(--gap-3xl);
+  z-index: 2;
+}
+.eMAILFrame {
+  align-self: stretch;
+  padding: 0 0 5.199999999999818px;
+  position: relative;
+  top: -15px;
+}
+.vectorIcon2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.timeCalendarDates {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.timeRange {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.appointmentDate {
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: #576915;
+  text-align: center;
+  z-index: 3;
+  width: 300px;
+  height: 45px;
+  left: -15px;
+  top: -10px;
+  border-color: #6b7b32;
+}
+.appointmentDetails {
+  flex: 0.9481;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-22xl) var(--padding-4xs)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-mini);
+  min-width: 149px;
+}
+.vectorIcon3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.timeTime {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.timeTimeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.appointmentTime {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-300);
+  text-align: center;
+  z-index: 3;
+  width: 200px;
+  height: 45px;
+  left: 25px;
+  top: -10px;
+  border-color: #576915;
+}
+.appointmentDetails1,
+.appointmentDetailsLabel,
+.datePicker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointmentDetails1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-13xl) 14.199999999999818px
+    var(--padding-5xl);
+  background-color: transparent;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  min-width: 149px;
+}
+.appointmentDetailsLabel,
+.datePicker {
+  max-width: 100%;
+}
+.appointmentDetailsLabel {
+  flex: 1;
+  gap: 11.700000000000728px;
+}
+.datePicker {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.submit,
+.submitButtonIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 470.4px;
+  height: 51.9px;
+  z-index: 2;
+}
+.submit {
+  top: 12px;
+  left: 202px;
+  font-size: var(--font-size-lg);
+  line-height: 27.51px;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 88px;
+  height: 17px;
+  z-index: 3;
+}
+.appointmentForm {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 51.9px;
+  position: relative;
+}
+.formFrame {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20.800000000000185px;
+  max-width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .firstNameInput,
+  .firstNameParent {
+    flex: 1;
+  }
+  .bookingFrame {
+    flex-wrap: wrap;
+  }
+  .appointmentDetails,
+  .appointmentDetails1 {
+    flex: 1;
+  }
+  .appointmentDetailsLabel {
+    flex-wrap: wrap;
+  }
+}

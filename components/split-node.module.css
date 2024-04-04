@@ -1,0 +1,327 @@
+.endNodeIcon {
+  height: 9px;
+  width: 1172px;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  top: -230px;
+  left: -60px;
+}
+.delayNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-8xs) var(--padding-27xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ishaNetrayala {
+  width: 251px;
+  position: relative;
+  letter-spacing: 7px;
+  line-height: 29px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+  top: -235px;
+}
+.sequenceNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-19xl);
+}
+.thaneDevCorpora {
+  margin: 0;
+  height: 67px;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  display: inline-block;
+  top: -225px;
+}
+.parallelNode,
+.startNode {
+  width: 641px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.startNode {
+  width: 1349px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.assignNode {
+  height: 100px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+}
+.devCorporaGround,
+.easternExpressHighway,
+.thaneMaharashtra {
+  margin: 0;
+}
+.devCorporaGroundContainer {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  height: 55px;
+  width: 49.4px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -41.5px;
+  left: -48.7px;
+  object-fit: cover;
+  z-index: 1;
+}
+.subtractNode {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.addNode,
+.callNode,
+.returnNode,
+.subtractNode {
+  display: flex;
+  align-items: flex-start;
+}
+.addNode {
+  width: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 13.300000000000182px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 21px);
+  flex-shrink: 0;
+}
+.callNode,
+.returnNode {
+  flex-direction: row;
+  max-width: 100%;
+}
+.callNode {
+  width: 517.1px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.returnNode {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.doctorAvailability {
+  width: 263.1px;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 27.51px;
+  display: inline-block;
+  color: var(--color-dimgray-400);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  top: 76px;
+}
+.continueNode {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  min-width: 382px;
+  margin-left: -2.1px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgreen);
+}
+.arrayNode,
+.continueNode,
+.counterNode,
+.outputSelector {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.counterNode {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 642px;
+  row-gap: 20px;
+}
+.arrayNode,
+.outputSelector {
+  align-self: stretch;
+}
+.arrayNode {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 58px;
+  color: var(--color-dimgray-400);
+  position: relative;
+  top: -100px;
+}
+.outputSelector {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.fri745Am,
+.mon745Am,
+.sat745Am,
+.thur830Am,
+.tues745Am,
+.wed745Am {
+  margin-bottom: 0;
+}
+.mon745Am830PmTues74 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.mon745AmContainer {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  max-width: 100%;
+}
+.fri745Am1,
+.mon745Am1,
+.sat745Am1,
+.thur830Am1,
+.tues745Am1,
+.wed745Am1 {
+  margin-bottom: 0;
+}
+.mon745Am830PmTues741 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.mon745AmContainer1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  right: -400px;
+  line-height: 35px;
+  display: inline-block;
+  height: 100%;
+  z-index: 1;
+}
+.layoutEngine {
+  width: 400.4px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.graphicDesigner,
+.inputSelector,
+.layoutEngine,
+.splitNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.graphicDesigner {
+  width: 1156px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgreen);
+}
+.inputSelector,
+.splitNode {
+  justify-content: flex-start;
+}
+.inputSelector {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.splitNode {
+  width: 1424px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) var(--padding-218xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-500);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .delayNode {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .thaneDevCorpora {
+    font-size: var(--font-size-21xl);
+  }
+  .callNode {
+    flex: 1;
+  }
+  .counterNode {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .continueNode {
+    gap: 45px 90px;
+    margin-left: 0;
+  }
+  .counterNode {
+    min-width: 100%;
+  }
+  .arrayNode {
+    gap: 0 29px;
+  }
+  .splitNode {
+    padding-bottom: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetrayala {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .thaneDevCorpora {
+    font-size: var(--font-size-11xl);
+  }
+  .doctorAvailability {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .continueNode {
+    gap: 22px 90px;
+    min-width: 100%;
+  }
+}

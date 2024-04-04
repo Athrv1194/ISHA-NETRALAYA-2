@@ -1,0 +1,446 @@
+.ourStarDoctors {
+  margin: 0;
+  height: 88.1px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.valueReceiver {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.errorProcessorIcon {
+  height: 167.7px;
+  width: 177px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.valueComparer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 12.299999999999956px;
+}
+.drSmiteshShah {
+  height: 35.1px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+}
+.outputModify {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+}
+.eyeCataract {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 27.51px;
+  font-family: var(--font-montserrat);
+  color: var(--color-olivedrab-200);
+  top: 40px;
+}
+.dataFiltering,
+.sequenceFilter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataFiltering {
+  flex: 1;
+  flex-direction: column;
+  gap: 4.699999999999932px;
+}
+.sequenceFilter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.chiefMedicalDirector {
+  align-self: stretch;
+  height: 95.7px;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 27.51px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  flex-shrink: 0;
+  top: 30px;
+}
+.dataSink {
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18.100000000000023px;
+  max-width: 100%;
+}
+.valueBranchingIcon {
+  height: 167.7px;
+  width: 177px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.outputBranch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.drAmitShriram {
+  height: 35.1px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.vitreoRetinaCataract {
+  flex: 1;
+  position: relative;
+  line-height: 27.51px;
+  top: 40px;
+}
+.outputCombiner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-montserrat);
+}
+.errorCatchAll,
+.flowMerger {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flowMerger {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4.699999999999932px;
+}
+.errorCatchAll {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.msDnbFico {
+  align-self: stretch;
+  height: 96.7px;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 27.51px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  flex-shrink: 0;
+  top: 30px;
+}
+.conditionTree,
+.functionSplitting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.functionSplitting {
+  align-self: stretch;
+  gap: 17.100000000000023px;
+}
+.conditionTree {
+  width: 370px;
+  gap: 30.399999999999977px;
+}
+.conditionCombinerIcon {
+  height: 167.7px;
+  width: 177px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.flowRouting {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+}
+.drSonalShah {
+  height: 35.1px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+}
+.functionChain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.corneaCataract {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 27.51px;
+  font-family: var(--font-montserrat);
+  color: var(--color-olivedrab-200);
+}
+.valueChainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.699999999999932px;
+}
+.medicalDirector {
+  flex: 1;
+  position: relative;
+  line-height: 23.51px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.outputIterator,
+.sequenceProcessor {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sequenceProcessor {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  font-size: var(--font-size-mid);
+  color: var(--color-dimgray-400);
+  font-family: var(--font-montserrat);
+}
+.outputIterator {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 16.644999999999982px;
+  gap: 19.045000000000073px;
+}
+.outputStackChild {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  width: 235px;
+  height: 48.3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.more {
+  position: absolute;
+  top: 10.4px;
+  left: 80px;
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.33em;
+  line-height: 28px;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 76px;
+  height: 26.5px;
+  z-index: 2;
+}
+.outputStack {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 48.3px;
+  flex: 1;
+  position: relative;
+}
+.errorReporting,
+.functionQueue {
+  display: flex;
+  justify-content: flex-start;
+}
+.functionQueue {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-60xl-5) 0 var(--padding-60xl);
+  position: relative;
+  left: -414px;
+  top: 30px;
+}
+.errorReporting {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30.399999999999977px;
+  min-width: 259px;
+  max-width: 100%;
+}
+.functionComposer,
+.outputProcessor {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.functionComposer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 36.5px;
+  font-size: var(--font-size-8xl-5);
+  color: var(--color-black);
+}
+.outputProcessor {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 119.39999999999998px;
+}
+.maskGroupIcon {
+  height: 26.5px;
+  width: 28px;
+  position: relative;
+  object-fit: cover;
+}
+.outputAggregator {
+  width: 1078px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.dataMerger,
+.dataSplitter,
+.outputAggregator {
+  display: flex;
+  max-width: 100%;
+}
+.dataSplitter {
+  width: 1208px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 33.700000000000045px;
+}
+.dataMerger {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-180xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-51xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .dataMerger {
+    padding-bottom: var(--padding-110xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourStarDoctors {
+    font-size: var(--font-size-37xl);
+  }
+  .functionComposer {
+    gap: 0 18px;
+  }
+  .outputProcessor {
+    gap: 60px 119.39999999999998px;
+  }
+  .dataSplitter {
+    gap: 17px 33.700000000000045px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourStarDoctors {
+    font-size: var(--font-size-23xl);
+  }
+  .drSmiteshShah {
+    font-size: var(--font-size-3xl);
+  }
+  .outputModify {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .eyeCataract {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .drAmitShriram {
+    font-size: var(--font-size-3xl);
+  }
+  .vitreoRetinaCataract {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .conditionTree {
+    gap: 15px 30.399999999999977px;
+  }
+  .drSonalShah {
+    font-size: var(--font-size-3xl);
+  }
+  .corneaCataract {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .functionQueue {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .errorReporting {
+    gap: 15px 30.399999999999977px;
+  }
+  .outputProcessor {
+    gap: 30px 119.39999999999998px;
+  }
+  .dataMerger {
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}

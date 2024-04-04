@@ -1,0 +1,328 @@
+.ourBranches {
+  height: 54px;
+  width: 698px;
+  position: absolute;
+  margin: 0 !important;
+  top: 89px;
+  right: -196px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.kalyaniNetralayaFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.kalyan {
+  font-family: var(--font-montserrat);
+}
+.kalyanIshaNetralayaRadh {
+  margin: 0;
+}
+.kalyanIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 3;
+}
+.kalyanIshaNetralayaRadhWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.thaneCoralSquare {
+  font-family: var(--font-montserrat);
+}
+.thaneCoralSquareIcoral {
+  margin: 0;
+}
+.thaneCoralSquareContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  padding-right: var(--padding-11xs);
+  z-index: 1;
+}
+.ambernath {
+  font-family: var(--font-montserrat);
+}
+.ishaNetralayaPrabat {
+  white-space: pre-wrap;
+}
+.ambernathIshaNetralayaPr {
+  margin: 0;
+}
+.ambernathIshaNetralayaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.homeLatestUpdatesFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.pune {
+  font-family: var(--font-montserrat);
+}
+.puneIshaNetralayaShopN {
+  margin: 0;
+}
+.puneIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.homeLatestUpdatesFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.ambernathNetralayaFrame,
+.thaneCoralSquareIcoralParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thaneCoralSquareIcoralParent {
+  align-self: stretch;
+  gap: var(--gap-22xl);
+}
+.ambernathNetralayaFrame {
+  position: absolute;
+  top: 136px;
+  left: 1017px;
+  width: 283px;
+  gap: var(--gap-28xl);
+}
+.home,
+.latestUpdates {
+  position: relative;
+  z-index: 2;
+}
+.home {
+  width: 88px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  cursor: pointer;
+}
+.latestUpdates {
+  align-self: stretch;
+}
+.articlesBlogs,
+.contactUs,
+.ourDoctors {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.articlesBlogs,
+.contactUs {
+  z-index: 2;
+}
+.homeParent {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.ourServices {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.lasikFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cataractTreatment1 {
+  margin: 0;
+}
+.cataractTreatment,
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  z-index: 1;
+}
+.contouraVision,
+.smileSurgery {
+  z-index: 2;
+}
+.contouraVision {
+  z-index: 1;
+}
+.retinaTreatment1 {
+  margin: 0;
+}
+.retinaTreatment {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contouraFrame {
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 9.75px;
+  margin-top: -7px;
+  font-size: var(--font-size-base-3);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}
+.cataractFrame {
+  align-self: stretch;
+  flex-direction: column;
+}
+.cataractFrame,
+.ourServicesFrame,
+.servicesList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.servicesList {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 454px;
+  color: var(--color-white);
+}
+.ourServicesFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 73px;
+}
+.aboutUs {
+  width: 305px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  cursor: pointer;
+  z-index: 2;
+}
+.contactUsFrame {
+  position: absolute;
+  top: 85px;
+  left: 465px;
+  width: 971px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  font-size: var(--font-size-5xl-7);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-playfair-display);
+}
+.pediatricOphthalmology {
+  position: absolute;
+  top: 290px;
+  left: 737px;
+  font-size: var(--font-size-base-3);
+  line-height: 24.72px;
+  display: inline-block;
+  width: 281px;
+  height: 21px;
+  z-index: 3;
+}
+.kalyaniNetralayaFrame {
+  height: 473px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  max-width: 100%;
+  font-size: var(--font-size-2xs);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}
+.ourBranchesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl-7);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1000px) {
+  .kalyaniNetralayaFrame {
+    height: auto;
+    min-height: 473;
+  }
+}
+@media screen and (max-width: 750px) {
+  .servicesList {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs,
+  .articlesBlogs,
+  .contactUs,
+  .home,
+  .latestUpdates,
+  .ourBranches,
+  .ourDoctors,
+  .ourServices {
+    font-size: var(--font-size-xl);
+  }
+}

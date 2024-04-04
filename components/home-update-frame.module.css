@@ -1,0 +1,456 @@
+.facebookAltSvgrepoCom1Icon,
+.twitterSvgrepoCom1Icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookAltSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+}
+.chineseToJapaneseText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.linkedinSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chineseToJapaneseText1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.instagramSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chineseToJapaneseText2,
+.copyrightFrame,
+.foodFrames {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chineseToJapaneseText2 {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.copyrightFrame,
+.foodFrames {
+  flex-direction: column;
+}
+.foodFrames {
+  gap: var(--gap-11xl);
+}
+.copyrightFrame {
+  padding: 147.89999999999964px 0 0;
+}
+.attendingATrade {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+}
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.iconLogoWhite3 {
+  position: absolute;
+  top: 108.6px;
+  left: 324px;
+  width: 102px;
+  height: 102px;
+  z-index: 1;
+}
+.image {
+  align-self: stretch;
+  height: 366.3px;
+  position: relative;
+  background-image: url(/blindguy.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.foodFrames1,
+.lastMonthText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.foodFrames1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.lastMonthText {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.microsoftPatchMana {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-darkslategray-400);
+}
+.microsoftPatchManagerText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16.699999999999818px;
+  max-width: 100%;
+}
+.dryMacularDegeneration,
+.wetMacularDegeneration {
+  margin: 0;
+}
+.lastMonthMyContainer {
+  height: 142.4px;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 100%;
+}
+.ourServicesFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.attendingATradeShowText,
+.imageFrame,
+.ourServicesFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imageFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+}
+.attendingATradeShowText {
+  width: 766px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 81.50000000000045px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-slategray);
+}
+.food {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.severalFactorsElevate {
+  margin-bottom: 0;
+}
+.severalFactorsElevateTheRi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.ageOver50,
+.familyHistoryOf,
+.highIntakeOf,
+.hypertension,
+.noSmoking,
+.obesity {
+  margin-bottom: 0;
+}
+.highIntakeOfSaturatedFats {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.chineseToJapaneseContainer {
+  align-self: stretch;
+  height: 170.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.phoneEmailMaskGroup {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.food1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ishaNetralaya1 {
+  text-decoration: underline;
+}
+.ishaNetralaya {
+  color: inherit;
+}
+.bestEyeHospitals {
+  text-decoration: underline;
+}
+.bestEyeHospitalsInMaharash {
+  color: inherit;
+}
+.whenItComesToAddressingMa {
+  margin: 0;
+}
+.preventionAndEarly {
+  font-family: var(--font-montserrat);
+}
+.preventionAndEarlyDetection {
+  margin: 0;
+}
+.manyIndividualsMay {
+  font-family: var(--font-montserrat);
+}
+.manyIndividualsMayNotRecog {
+  margin: 0;
+}
+.understandingMacularDegenera1 {
+  font-family: var(--font-montserrat);
+}
+.understandingMacularDegenera {
+  margin: 0;
+}
+.chineseToJapaneseContainer1 {
+  width: 750px;
+  height: 170.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.iSHAFrame {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  flex-shrink: 0;
+}
+.attendingATradeShowTextParent,
+.contactUsFrame,
+.iSHAFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.attendingATradeShowTextParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 79.09999999999991px;
+  min-width: 554px;
+}
+.contactUsFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 147px;
+}
+.food2 {
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.food2,
+.forLasersAnd,
+.topRetinaSurgeons,
+.weHaveAdvanced,
+.weHaveAn {
+  margin: 0;
+}
+.chineseToJapaneseContainer2 {
+  align-self: stretch;
+  height: 170.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.headerFrame,
+.mainContentFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mainContentFrame {
+  width: 750px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.headerFrame {
+  width: 956px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.ourDoctorsFrame {
+  width: 1035px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 243.0999999999999px;
+  max-width: 100%;
+}
+.homeUpdateFrame {
+  width: 1345px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 40.999999999999545px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .homeUpdateFrame {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .microsoftPatchMana {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .attendingATradeShowText {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .attendingATradeShowTextParent {
+    gap: 40px 79.09999999999991px;
+  }
+  .contactUsFrame {
+    gap: 0 73px;
+  }
+  .ourDoctorsFrame {
+    gap: 122px 243.0999999999999px;
+  }
+  .homeUpdateFrame {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .attendingATradeShowTextParent {
+    min-width: 100%;
+  }
+  .contactUsFrame {
+    gap: 0 37px;
+  }
+  .ourDoctorsFrame {
+    gap: 61px 243.0999999999999px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .copyrightFrame {
+    padding-top: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+  .attendingATrade {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .microsoftPatchMana {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .attendingATradeShowText {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .food,
+  .food1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .iSHAFrame {
+    gap: 17px 34px;
+  }
+  .attendingATradeShowTextParent {
+    gap: 20px 79.09999999999991px;
+  }
+  .contactUsFrame {
+    gap: 0 18px;
+  }
+  .food2 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .ourDoctorsFrame {
+    gap: 30px 243.0999999999999px;
+  }
+}

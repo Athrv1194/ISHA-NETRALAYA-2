@@ -1,0 +1,396 @@
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.ourBranches {
+  position: absolute;
+  top: 89px;
+  left: 1019px;
+  font-weight: 500;
+  display: inline-block;
+  width: 698px;
+  height: 54px;
+  z-index: 2;
+}
+.kalyan {
+  font-family: var(--font-montserrat);
+}
+.kalyanIshaNetralayaRadh {
+  margin: 0;
+}
+.kalyanIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 3;
+}
+.kalyanIshaNetralayaRadhWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.thaneCoralSquare {
+  font-family: var(--font-montserrat);
+}
+.thaneCoralSquareIcoral {
+  margin: 0;
+}
+.thaneCoralSquareContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  padding-right: var(--padding-11xs);
+  z-index: 1;
+}
+.ambernath {
+  font-family: var(--font-montserrat);
+}
+.ishaNetralayaPrabat {
+  white-space: pre-wrap;
+}
+.ambernathIshaNetralayaPr {
+  margin: 0;
+}
+.ambernathIshaNetralayaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.ambernathBranch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.pune {
+  font-family: var(--font-montserrat);
+}
+.puneIshaNetralayaShopN {
+  margin: 0;
+}
+.puneIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.ambernathBranch1,
+.branchDetails,
+.footerContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ambernathBranch1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.branchDetails,
+.footerContent {
+  flex-direction: column;
+}
+.branchDetails {
+  align-self: stretch;
+  gap: var(--gap-22xl);
+}
+.footerContent {
+  position: absolute;
+  top: 136px;
+  left: 1017px;
+  width: 283px;
+  gap: var(--gap-28xl);
+  font-size: var(--font-size-2xs);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}
+.home {
+  width: 88px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.articlesBlogs,
+.contactUs,
+.latestUpdates,
+.ourDoctors {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.homeParent {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.ourServices {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourServicesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cataractTreatment1 {
+  margin: 0;
+}
+.cataractTreatment,
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  z-index: 1;
+}
+.contouraVision,
+.smileSurgery {
+  z-index: 2;
+}
+.contouraVision {
+  z-index: 1;
+}
+.retinaTreatment1 {
+  margin: 0;
+}
+.retinaTreatment {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cataractTreatmentParent {
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 9.75px;
+  margin-top: -7px;
+  font-size: var(--font-size-base-3);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}
+.ourServicesList {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameGroup,
+.ourServicesList,
+.ourServicesListWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ourServicesListWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 454px;
+  color: var(--color-white);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 73px;
+}
+.aboutUs {
+  width: 305px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.frameParent {
+  position: absolute;
+  top: 85px;
+  left: 465px;
+  width: 971px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  color: var(--color-whitesmoke-200);
+}
+.pediatricOphthalmology {
+  position: absolute;
+  top: 290px;
+  left: 737px;
+  font-size: var(--font-size-base-3);
+  line-height: 24.72px;
+  font-family: var(--font-montserrat);
+  color: var(--color-lightgray);
+  display: inline-block;
+  width: 281px;
+  height: 21px;
+  z-index: 2;
+}
+.asOneOf,
+.ishaNetralaya1 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ishaNetralaya1 {
+  align-self: stretch;
+  height: 54px;
+  font-weight: 500;
+}
+.asOneOf {
+  width: 300.7px;
+  height: 42px;
+  font-size: var(--font-size-base-3);
+  line-height: 24.72px;
+  font-family: var(--font-poppins);
+  color: var(--color-lightgray);
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  margin-top: -7px;
+}
+.ishaNetralaya {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-14xl);
+  font-size: var(--font-size-5xl-7);
+}
+.email,
+.phone {
+  margin: 0;
+}
+.phoneEmail {
+  align-self: stretch;
+  position: relative;
+  line-height: 24.72px;
+  z-index: 1;
+}
+.maskGroupIcon {
+  width: 106.6px;
+  height: 25px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.copyright2024Isha,
+.maskGroupFrame {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.maskGroupFrame {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-3xl);
+  color: var(--color-lightgray);
+  font-family: var(--font-poppins);
+}
+.copyright2024Isha {
+  width: 337px;
+  position: relative;
+  line-height: 23px;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.ishaNetralayaParent {
+  position: absolute;
+  top: 85px;
+  left: 103px;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+  font-size: var(--font-size-base-3);
+}
+.footer {
+  align-self: stretch;
+  height: 473px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl-7);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .footer {
+    height: auto;
+    min-height: 473;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourServicesListWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs,
+  .articlesBlogs,
+  .contactUs,
+  .home,
+  .ishaNetralaya1,
+  .latestUpdates,
+  .ourBranches,
+  .ourDoctors,
+  .ourServices {
+    font-size: var(--font-size-xl);
+  }
+}

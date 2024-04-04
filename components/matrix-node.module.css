@@ -1,0 +1,347 @@
+.ishaNetrayala {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 7px;
+  line-height: 29px;
+  z-index: 1;
+}
+.kalyan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.filterNode,
+.mapNode,
+.transformNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transformNode {
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.filterNode,
+.mapNode {
+  width: 251px;
+  flex-direction: column;
+}
+.mapNode {
+  width: 1367px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  object-fit: cover;
+}
+.textParser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.giveUsA {
+  height: 32px;
+  position: relative;
+  line-height: 27.51px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.span {
+  text-decoration: underline;
+}
+.a {
+  color: inherit;
+}
+.span1 {
+  text-decoration: underline;
+}
+.a1 {
+  color: inherit;
+}
+.memoryNode {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27.51px;
+  font-weight: 600;
+  color: var(--color-darkgreen);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.linkCollector,
+.triggerNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.triggerNode {
+  flex: 1;
+  flex-direction: column;
+}
+.linkCollector {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 347px;
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.dataAggregator {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-darkgreen);
+  box-sizing: border-box;
+}
+.capabilityNode {
+  height: 100px;
+  width: 60.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroupIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conditionSplitter {
+  height: 87px;
+  width: 49.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+}
+.kalyanWestThane,
+.karnikRoadNear,
+.radhaKrishnaSankul {
+  margin: 0;
+}
+.radhaKrishnaSankulContainer {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.functionalityNode,
+.outputMerger,
+.procedureNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.outputMerger {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  min-width: 260px;
+}
+.functionalityNode,
+.procedureNode {
+  flex-direction: row;
+}
+.functionalityNode {
+  width: 524.9px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 7.100000000000364px;
+}
+.procedureNode {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.doctorAvailability {
+  width: 263.1px;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 27.51px;
+  display: inline-block;
+  color: var(--color-dimgray-400);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.algorithmNode {
+  position: absolute;
+  top: 0;
+  left: 805px;
+  width: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgreen);
+}
+.analyzerNode,
+.queueNode {
+  align-self: stretch;
+  max-width: 100%;
+}
+.analyzerNode {
+  height: 226px;
+  position: relative;
+  color: var(--color-dimgray-400);
+}
+.queueNode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.fri800Am,
+.mon800Am,
+.sat800Am,
+.thur800Am,
+.tues800Am,
+.wed800Am {
+  margin-bottom: 0;
+}
+.mon800Am830PmTues80 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.mon800AmContainer {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  max-width: 100%;
+}
+.fri800Am1,
+.mon800Am1,
+.sat800Am1,
+.thur800Am1,
+.tues800Am1,
+.wed800Am1 {
+  margin-bottom: 0;
+}
+.mon800Am830PmTues801 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.mon800AmContainer1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  right: -400px;
+  line-height: 35px;
+  display: inline-block;
+  height: 100%;
+  z-index: 1;
+}
+.layoutEngine {
+  width: 400.4px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.graphicDesigner,
+.layoutEngine,
+.matrixNode,
+.stackNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.graphicDesigner {
+  width: 1156px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgreen);
+}
+.matrixNode,
+.stackNode {
+  justify-content: flex-start;
+}
+.stackNode {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.matrixNode {
+  width: 1424px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) var(--padding-218xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-500);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .kalyan {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .matrixNode {
+    padding-bottom: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetrayala {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .kalyan {
+    font-size: var(--font-size-11xl);
+  }
+  .doctorAvailability,
+  .giveUsA {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .analyzerNode {
+    height: auto;
+    min-height: 226;
+  }
+}

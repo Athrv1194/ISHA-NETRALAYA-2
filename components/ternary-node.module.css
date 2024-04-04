@@ -1,0 +1,172 @@
+.containeraboutusIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ternaryNodeChild {
+  width: 351px;
+  height: 0.5px;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+.trustedEyeHospital {
+  margin: 0;
+  align-self: stretch;
+  height: 109px;
+  font-size: inherit;
+  line-height: 27.51px;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.aboutUs,
+.nestledInThe,
+.trustedEyeHospital {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.nestledInThe {
+  flex: 1;
+  letter-spacing: -0.03em;
+  line-height: 18px;
+  max-width: 100%;
+}
+.aboutUs {
+  margin: 0;
+  height: 67px;
+  font-size: inherit;
+  letter-spacing: 0.11em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-dimgray-200);
+  width: 250px;
+  height: 51px;
+  cursor: pointer;
+}
+.readMore1 {
+  margin: 0;
+  position: absolute;
+  top: 11px;
+  left: 64px;
+  font-size: inherit;
+  line-height: 27.51px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 519px;
+  height: 107px;
+  z-index: 4;
+}
+.trieNode {
+  width: 583px;
+  height: 118px;
+  position: relative;
+  max-width: 233%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow);
+  font-family: var(--font-montserrat);
+}
+.bSPTreeNode,
+.hexTreeNode,
+.readMore,
+.ternaryNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.readMore {
+  height: 588px;
+  width: 250px;
+  margin: 0 !important;
+  position: absolute;
+  top: -280.6px;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-115xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-317xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-playfair-display);
+}
+.bSPTreeNode,
+.hexTreeNode,
+.ternaryNode {
+  max-width: 100%;
+}
+.bSPTreeNode {
+  align-self: stretch;
+  height: 245.9px;
+  flex-direction: row;
+  position: relative;
+  margin-top: -74px;
+  font-size: var(--font-size-xs);
+}
+.hexTreeNode,
+.ternaryNode {
+  flex-direction: column;
+}
+.hexTreeNode {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.ternaryNode {
+  width: 652px;
+  padding: var(--padding-199xl-5) var(--padding-45xl) var(--padding-107xl)
+    var(--padding-50xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-4xl-5);
+  margin-top: -9px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .aboutUs {
+    font-size: var(--font-size-21xl);
+  }
+  .ternaryNode {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-13xl);
+    padding-bottom: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedEyeHospital {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .aboutUs {
+    font-size: var(--font-size-11xl);
+  }
+  .readMore1 {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+}

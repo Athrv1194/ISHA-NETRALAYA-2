@@ -1,0 +1,242 @@
+.backgroundIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.maskGroupIcon {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+}
+.isha,
+.notes {
+  max-width: 100%;
+}
+.isha {
+  margin: 0;
+  height: 75px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.notes {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0;
+  box-sizing: border-box;
+}
+.netralaya1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon {
+  width: 434px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icon1 {
+  height: 57.7px;
+  width: 89px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -375px;
+}
+.netralaya {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fileNoteText {
+  height: 29px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.selfRegistration {
+  align-self: stretch;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.chineseJapaneseText {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.branchesText,
+.chineseJapaneseText,
+.footerFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.branchesText {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.footerFrame {
+  width: 349px;
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.iSHA,
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.iSHA {
+  width: 855px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-53xl);
+}
+.maskGroupParent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-roboto-mono);
+}
+.whatIsGlaucoma {
+  margin: 0;
+  width: 773px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  z-index: 1;
+}
+.microsoftPatchManaChineseJ {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.bgnav,
+.bgnavChild {
+  box-sizing: border-box;
+  position: relative;
+}
+.bgnavChild {
+  width: 170px;
+  height: 36px;
+  border: 1px solid var(--color-white);
+  display: none;
+  z-index: 3;
+}
+.bgnav {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-38xl) var(--padding-45xl) var(--padding-314xl)
+    var(--padding-111xl);
+  gap: var(--gap-210xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 900px) {
+  .chineseJapaneseText {
+    display: none;
+  }
+  .iSHA {
+    gap: 72px 36px;
+  }
+  .whatIsGlaucoma {
+    font-size: var(--font-size-25xl);
+  }
+  .bgnav {
+    gap: 114px 229px;
+    padding: var(--padding-18xl) var(--padding-13xl) var(--padding-197xl)
+      var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .selfRegistration {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .iSHA {
+    gap: 72px 18px;
+  }
+  .whatIsGlaucoma {
+    font-size: var(--font-size-14xl);
+  }
+  .bgnav {
+    gap: 57px 229px;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-5xl);
+    padding-bottom: var(--padding-121xl);
+    box-sizing: border-box;
+  }
+}

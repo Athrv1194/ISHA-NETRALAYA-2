@@ -1,0 +1,70 @@
+.femtosecondLasikAt {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.connectionNodes {
+  width: 582px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.alsoKnownAsBladeFreeLasik {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.alsoKnownAsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+}
+.containerNodes,
+.leafNodes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.containerNodes {
+  flex: 1;
+  flex-direction: column;
+  gap: 12.840000000000146px;
+}
+.leafNodes {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-7xs) var(--padding-sm);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 750px) {
+  .femtosecondLasikAt {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .femtosecondLasikAt {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

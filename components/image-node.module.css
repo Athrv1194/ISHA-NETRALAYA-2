@@ -1,0 +1,361 @@
+.shapeCombineMorphNode {
+  width: 758px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+}
+.understandingContouraVision {
+  margin: 0;
+  position: relative;
+  top: 16px;
+}
+.understandingContouraVisionContainer {
+  margin: 0;
+  height: 86px;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.understandingContouraVisionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.contouraVisionSurgery {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -190px;
+  right: -410px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.assessmentAndDiagnosis {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  z-index: 2;
+}
+.functionTree,
+.shapeStarNode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.functionTree {
+  width: 381px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.shapeStarNode {
+  flex-direction: column;
+  padding: var(--padding-305xl) var(--padding-161xl) var(--padding-469xl);
+  box-sizing: border-box;
+  gap: var(--gap-150xl);
+}
+.atIshaNetralaya {
+  height: 216px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.undergoingContouraVision {
+  margin: 0;
+}
+.detailedCornealMappingUsin1,
+.laserVisionCorrectionEmplo {
+  margin-bottom: 0;
+}
+.detailedCornealMappingUsin {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.undergoingContouraVisionContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -211px;
+  left: 0;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.loopNode,
+.theContouraVision {
+  position: relative;
+  max-width: 100%;
+}
+.loopNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.theContouraVision {
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+  display: inline-block;
+  z-index: 2;
+  margin: -49px 0 0;
+}
+.conditionNode,
+.controlCenter,
+.shapeTrimNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.conditionNode {
+  width: 803px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.controlCenter,
+.shapeTrimNode {
+  align-self: stretch;
+}
+.controlCenter {
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -483px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.shapeTrimNode {
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 1110px;
+}
+.enhancedVisualAcuityPotent,
+.highlyCustomisedTailoredTo1,
+.minimallyInvasiveLessTissu,
+.rapidRecoveryMostPatients {
+  margin-bottom: 0;
+}
+.highlyCustomisedTailoredTo {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.highlyCustomisedTailoredToContainer {
+  height: 216px;
+  width: 803px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+}
+.ifNode,
+.shapeRoundNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ifNode {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.shapeRoundNode {
+  width: 963px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.whyChooseIsha {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.nestedNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.comprehensiveCareFocusedOn,
+.expertTeamOurTeam,
+.optingForIsha,
+.stateOfTheArtTechnologyE {
+  margin-bottom: 0;
+}
+.optingForIshaNetralayaMean {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.optingForIshaContainer {
+  align-self: stretch;
+  height: 361px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.booleanOperator,
+.comparisonNode,
+.imageNode {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.booleanOperator {
+  width: 783px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.comparisonNode,
+.imageNode {
+  width: 1089px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.imageNode {
+  width: 1261px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-46xl) 0;
+  gap: var(--gap-110xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1200px) {
+  .shapeStarNode {
+    padding-top: var(--padding-192xl);
+    padding-bottom: var(--padding-298xl);
+    box-sizing: border-box;
+  }
+  .imageNode {
+    gap: 64px 129px;
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .assessmentAndDiagnosis,
+  .understandingContouraVisionContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .shapeStarNode {
+    gap: 84px 169px;
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+  .theContouraVision,
+  .whyChooseIsha {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .shapeStarNode {
+    padding-top: var(--padding-118xl);
+    padding-bottom: var(--padding-187xl);
+    box-sizing: border-box;
+  }
+  .shapeRoundNode {
+    gap: 16px 32px;
+  }
+  .imageNode {
+    gap: 32px 129px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .assessmentAndDiagnosis,
+  .understandingContouraVisionContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .shapeStarNode {
+    gap: 42px 169px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .theContouraVision,
+  .whyChooseIsha {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .imageNode {
+    gap: 16px 129px;
+  }
+}

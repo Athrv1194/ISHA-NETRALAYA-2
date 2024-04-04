@@ -1,0 +1,449 @@
+.onlineAppointmentCardChild {
+  height: 479px;
+  width: 518px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.contactUsSectionChild {
+  width: 375px;
+  height: 375px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  max-width: 100%;
+}
+.ishaNetralaya {
+  margin: 0;
+  height: 96px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.pediatricOphthalmology {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.ourServicesFrame {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border: 0.5px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.copyrightNoticeFrame {
+  width: 214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+}
+.asOneOf {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.aboutUs,
+.phoneEmailFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phoneEmailFrame {
+  gap: var(--gap-4xl);
+  margin-top: -48px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-500);
+}
+.aboutUs {
+  flex: 1;
+}
+.cONTOURAVision {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.onlineAppointment {
+  position: absolute;
+  top: 4px;
+  left: 23px;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  z-index: 3;
+}
+.sMILESurgery {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.lASISurgery {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.contactUsSection,
+.onlineAppointmentCard {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUsSection {
+  height: 375px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-59xl) var(--padding-56xl) var(--padding-64xl);
+  gap: var(--gap-64xl);
+  z-index: 1;
+}
+.onlineAppointmentCard {
+  border-radius: var(--br-lgi);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-33xl) var(--padding-52xl) var(--padding-33xl)
+    var(--padding-53xl);
+  background-image: url(/rectangle-715@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 337px;
+}
+.youtubeAndVimeoVideo,
+.ytChild {
+  align-self: stretch;
+  position: relative;
+}
+.ytChild {
+  height: 471px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.youtubeAndVimeoVideo {
+  height: 220px;
+  z-index: 1;
+  top: 20px;
+}
+.inThisVideo {
+  margin: 0;
+  height: 53px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.homeAndLatestUpdates,
+.sMILESurgerySection,
+.yt {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sMILESurgerySection {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.homeAndLatestUpdates,
+.yt {
+  align-items: flex-end;
+}
+.yt {
+  width: 360px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  padding: 0 0 var(--padding-155xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  min-width: 360px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.homeAndLatestUpdates {
+  width: 1056px;
+  flex-direction: row;
+  gap: var(--gap-159xl);
+}
+.bestHospitalFor {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.latestUpdatesLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.atIshaNetralaya,
+.theRetinaIs {
+  margin: 0;
+}
+.theRetinaIsContainer {
+  margin: 0;
+  width: 783px;
+  height: 216px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.homeLabel,
+.servicesHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.homeLabel {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.servicesHeader {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.ageRelatedMacularDegenerati,
+.blankLine,
+.diabeticRetinopathyDiabetic,
+.macularEdemaMacularEdema,
+.retinalDetachmentRetinalDe,
+.retinalInfectionsInfections,
+.retinalTearsRetinalTears,
+.retinalVascularDiseasesVar {
+  margin: 0;
+}
+.diabeticRetinopathyDiabeticContainer {
+  margin: 0;
+  height: 1150px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  line-height: 29px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.conditionsSectionChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 758px;
+}
+.conditionsAffectingThe {
+  margin: 0;
+  position: absolute;
+  top: 388px;
+  left: 190px;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.conditionsSection {
+  height: 1110px;
+  width: 739px;
+  position: absolute;
+  margin: 0 !important;
+  top: -447px;
+  left: -189px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.aboutUsLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.contactUsLabel {
+  width: 791px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+}
+.becomeAMember,
+.contactUsLabel,
+.footerFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerFrame {
+  width: 1126px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-121xl);
+}
+.becomeAMember {
+  width: 1275px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-349xl) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1225px) {
+  .footerFrame {
+    gap: 70px 140px;
+  }
+  .becomeAMember {
+    padding-bottom: var(--padding-136xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .yt {
+    flex: 1;
+  }
+  .homeAndLatestUpdates {
+    flex-wrap: wrap;
+    gap: 178px 89px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .onlineAppointmentCard {
+    padding: var(--padding-15xl) var(--padding-16xl) var(--padding-15xl)
+      var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .yt {
+    padding-bottom: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+  .homeAndLatestUpdates {
+    gap: 178px 44px;
+  }
+  .bestHospitalFor {
+    font-size: var(--font-size-19xl);
+    line-height: 51px;
+  }
+  .conditionsAffectingThe {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .footerFrame {
+    gap: 35px 140px;
+  }
+  .becomeAMember {
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetralaya {
+    font-size: var(--font-size-base);
+  }
+  .contactUsSection {
+    gap: 41px 83px;
+    padding: var(--padding-32xl) var(--padding-xl) var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .onlineAppointmentCard,
+  .yt {
+    min-width: 100%;
+  }
+  .homeAndLatestUpdates {
+    gap: 178px 22px;
+  }
+  .bestHospitalFor {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .conditionsAffectingThe {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .footerFrame {
+    gap: 17px 140px;
+  }
+}

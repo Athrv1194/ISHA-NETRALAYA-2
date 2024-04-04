@@ -1,0 +1,155 @@
+.ourSuccessRate {
+  margin: 0;
+  align-self: stretch;
+  height: 125px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.treeNode {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  min-width: 410px;
+  max-width: 100%;
+}
+.p,
+.surgeries1 {
+  margin: 0;
+}
+.surgeries {
+  height: 106px;
+  width: 375px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 45px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.p1 {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+.yearsOfExperience {
+  margin: 0;
+}
+.yearsOfExperienceContainer {
+  margin: 0;
+  height: 93px;
+  width: 343px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 41px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 150%;
+  z-index: 1;
+}
+.p2 {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+.happyPatients1 {
+  margin: 0;
+}
+.happyPatients {
+  height: 93px;
+  width: 343px;
+  position: absolute;
+  margin: 0 !important;
+  top: -12.2px;
+  right: -341.3px;
+  line-height: 40px;
+  display: inline-block;
+  z-index: 2;
+}
+.subgraphNode {
+  height: 70px;
+  width: 228.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: -98px;
+}
+.cyclicGroupNode {
+  width: 620px;
+  justify-content: flex-start;
+  min-width: 620px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-lightgreen);
+}
+.cyclicGroupNode,
+.orderedMapNode,
+.unorderedMapNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.unorderedMapNode {
+  width: 1127px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.orderedMapNode {
+  align-self: stretch;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1225px) {
+  .cyclicGroupNode,
+  .treeNode {
+    flex: 1;
+  }
+  .unorderedMapNode {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourSuccessRate {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .cyclicGroupNode,
+  .treeNode {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourSuccessRate {
+    font-size: var(--font-size-3xl);
+    line-height: 35px;
+  }
+  .surgeries {
+    font-size: var(--font-size-lgi);
+    line-height: 36px;
+  }
+  .happyPatients,
+  .yearsOfExperienceContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 33px;
+  }
+  .happyPatients {
+    line-height: 32px;
+  }
+}

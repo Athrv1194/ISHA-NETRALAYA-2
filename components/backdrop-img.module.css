@@ -1,0 +1,278 @@
+.onlineAppointmentCardChild {
+  height: 479px;
+  width: 518px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.headerIconChild {
+  width: 375px;
+  height: 375px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  max-width: 100%;
+}
+.ishaNetralaya {
+  height: 96px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.socialMediaLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.navigationLinkSet {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border: 0.5px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.copyrightSymbol {
+  width: 214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+}
+.asOneOf {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.footerLogo,
+.phoneEmailContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phoneEmailContainer {
+  gap: var(--gap-4xl);
+  margin-top: -48px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-500);
+}
+.footerLogo {
+  flex: 1;
+}
+.subtitleText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.onlineAppointment {
+  position: absolute;
+  top: 4px;
+  left: 23px;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+  z-index: 3;
+}
+.logo {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.homeLinkSet {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.headerIcon,
+.onlineAppointmentCard {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headerIcon {
+  height: 375px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-59xl) var(--padding-56xl) var(--padding-64xl);
+  gap: var(--gap-64xl);
+  z-index: 1;
+}
+.onlineAppointmentCard {
+  border-radius: var(--br-lgi);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-33xl) var(--padding-52xl) var(--padding-33xl)
+    var(--padding-53xl);
+  background-image: url(/rectangle-715@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 337px;
+}
+.youtubeAndVimeoVideo,
+.ytChild {
+  align-self: stretch;
+  position: relative;
+}
+.ytChild {
+  height: 471px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.youtubeAndVimeoVideo {
+  flex: 1;
+  z-index: 1;
+  position: relative;
+  top: 15px;
+}
+.eye7ChaudharyEye {
+  text-decoration: underline;
+}
+.eye7ChaudharyEyeCentre1 {
+  color: inherit;
+}
+.eye7ChaudharyEyeCentre,
+.inThisVideo {
+  margin: 0;
+}
+.eye7ChaudharyEyeContainer {
+  height: 53px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.backdropImageLink,
+.yt {
+  display: flex;
+  justify-content: flex-start;
+}
+.backdropImageLink {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.yt {
+  height: 473px;
+  width: 360px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-155xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  min-width: 360px;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.backdropImg,
+.mainTitle {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.mainTitle {
+  width: 1056px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-159xl);
+}
+.backdropImg {
+  width: 1426px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-121xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .yt {
+    flex: 1;
+  }
+  .mainTitle {
+    flex-wrap: wrap;
+    gap: 178px 89px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .onlineAppointmentCard {
+    padding: var(--padding-15xl) var(--padding-16xl) var(--padding-15xl)
+      var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .yt {
+    padding-bottom: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+  .mainTitle {
+    gap: 178px 44px;
+  }
+  .backdropImg {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ishaNetralaya {
+    font-size: var(--font-size-base);
+  }
+  .headerIcon {
+    gap: 41px 83px;
+    padding: var(--padding-32xl) var(--padding-xl) var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .onlineAppointmentCard,
+  .yt {
+    min-width: 100%;
+  }
+  .mainTitle {
+    gap: 178px 22px;
+  }
+}

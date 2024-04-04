@@ -1,0 +1,324 @@
+.backgroundIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.hamburgerMenuIcon {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.phoneEmailMask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.icon,
+.isha {
+  cursor: pointer;
+  z-index: 1;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  width: 89px;
+  height: 55px;
+}
+.isha {
+  margin: 0;
+  height: 75px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.cataractLASIKSMILES {
+  width: 404px;
+  height: 38.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.netralaya {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  cursor: pointer;
+  z-index: 1;
+}
+.kalyaniBranch {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 5.899999999999636px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ambernathBranch {
+  height: 77px;
+  width: 434px;
+  position: relative;
+  max-width: 100%;
+}
+.fileNoteText {
+  width: 32px;
+  height: 31px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.careerOpportunities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.selfRegistration {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.homeLatestUpdates {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.onlineAppointment {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.homeLatestUpdates1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 118px;
+}
+.aboutUsInfo,
+.headerFrame,
+.homeLatestUpdates1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUsInfo {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.headerFrame {
+  width: 364px;
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.blogsSection,
+.thaneCorelSquareBranch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.thaneCorelSquareBranch {
+  width: 921px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.blogsSection {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.smileSurgery {
+  margin: 0;
+  height: 73px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.headerNavBar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.atIshaNetralaya {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ishaNetralayaLogo,
+.ourDoctorsArticles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ishaNetralayaLogo {
+  width: 803px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.ourDoctorsArticles {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-198xl);
+  min-width: 714px;
+}
+.backgroundImageNavChild {
+  height: 36px;
+  width: 170px;
+  position: relative;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  z-index: 3;
+}
+.backgroundImageNav,
+.ishaNetralayaHome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundImageNav {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: var(--padding-48xl) var(--padding-sm) var(--padding-316xl)
+    var(--padding-111xl);
+  position: relative;
+  gap: var(--gap-132xl);
+}
+.ishaNetralayaHome {
+  align-self: stretch;
+  padding: 0 0 var(--padding-80xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 1200px) {
+  .ourDoctorsArticles {
+    gap: 108px 217px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .isha {
+    font-size: var(--font-size-10xl);
+  }
+  .thaneCorelSquareBranch {
+    flex-wrap: wrap;
+  }
+  .smileSurgery {
+    font-size: var(--font-size-25xl);
+  }
+  .ourDoctorsArticles {
+    min-width: 100%;
+  }
+  .backgroundImageNav {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-199xl);
+    box-sizing: border-box;
+  }
+  .ishaNetralayaHome {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourDoctorsArticles {
+    gap: 54px 217px;
+  }
+  .backgroundImageNav {
+    gap: var(--gap-56xl);
+    padding-left: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .ishaNetralayaHome {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .isha {
+    font-size: var(--font-size-3xl);
+  }
+  .netralaya {
+    font-size: var(--font-size-lgi);
+  }
+  .aboutUsInfo {
+    flex-wrap: wrap;
+  }
+  .smileSurgery {
+    font-size: var(--font-size-14xl);
+  }
+  .ourDoctorsArticles {
+    gap: 27px 217px;
+  }
+  .backgroundImageNav {
+    gap: var(--gap-19xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-123xl);
+    box-sizing: border-box;
+  }
+}

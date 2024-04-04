@@ -1,0 +1,423 @@
+.facebookAltSvgrepoCom1Icon,
+.twitterSvgrepoCom1Icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookAltSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+}
+.hooverDamGrandCanyon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.linkedinSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hooverDamGrandCanyon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.instagramSvgrepoCom1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hooverDamGrandCanyon2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-5);
+}
+.chineseToJapaneseFood,
+.hereAreSomeOfThe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hereAreSomeOfThe {
+  gap: var(--gap-11xl);
+}
+.chineseToJapaneseFood {
+  padding: var(--padding-131xl) 0 0;
+}
+.lasikEyeSurgery {
+  text-decoration: underline;
+}
+.lasikEyeSurgeryCostsInMah {
+  color: inherit;
+}
+.attendingATradeContainer {
+  height: 256.4px;
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 100%;
+}
+.attendingATradeShWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.iconLogoWhite3 {
+  position: absolute;
+  top: 108.6px;
+  left: 324px;
+  width: 102px;
+  height: 102px;
+  z-index: 1;
+}
+.image {
+  align-self: stretch;
+  height: 366.3px;
+  position: relative;
+  background-image: url(/BlueEyesky.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.ambernathIshaNetralayaCatar,
+.homeLatestUpdatesOurDoctor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.homeLatestUpdatesOurDoctor {
+  flex: 1;
+  flex-direction: column;
+  gap: 14.200000000000728px;
+}
+.ambernathIshaNetralayaCatar {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.microsoftPatchMana {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.lasikSurgeonsIn {
+  text-decoration: underline;
+}
+.lasikSurgeonsInMaharashtra {
+  color: inherit;
+}
+.lastMonthMyContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+}
+.copyrightIShaNetralayaAllInner,
+.microsoftPatchManaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.microsoftPatchManaParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.copyrightIShaNetralayaAllInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.entertainment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.oneOfThe {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+}
+.copyrightIShaNetralayaAll,
+.entertainmentParent,
+.kalyaniIshaNetralayaRadhaK {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.entertainmentParent {
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-5xl);
+}
+.copyrightIShaNetralayaAll,
+.kalyaniIshaNetralayaRadhaK {
+  gap: 26.59999999999991px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-400);
+}
+.kalyaniIshaNetralayaRadhaK {
+  gap: 51.099999999999454px;
+  font-size: var(--font-size-xl);
+  color: var(--color-slategray);
+}
+.chineseToJapanese,
+.food {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.food {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.chineseToJapanese {
+  flex: 1;
+  line-height: 28px;
+}
+.chineseToJapaneseWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.chineseToJapaneseWrapper,
+.foodParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.foodParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.food1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.chineseToJapanese1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+}
+.foodGroup,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.foodGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) var(--padding-9xs-5);
+  box-sizing: border-box;
+}
+.hereAreSome {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hereAreSomeOfTheWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.theBestLasik {
+  margin: 0;
+}
+.lasikSurgeryIn {
+  text-decoration: underline;
+}
+.lasikSurgeryInMaharashtra {
+  color: inherit;
+}
+.whenConsideringLasikSurgery {
+  margin: 0;
+}
+.hooverDamAndContainer {
+  align-self: stretch;
+  height: 284.9px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  color: var(--color-slategray);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.foodCategory,
+.footerContent,
+.kalyaniIshaNetralayaRadhaKParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.kalyaniIshaNetralayaRadhaKParent {
+  width: 764px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 33.59999999999991px;
+}
+.foodCategory {
+  width: 945px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .hereAreSome,
+  .microsoftPatchMana {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .foodCategory {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chineseToJapaneseFood {
+    padding-top: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+  .attendingATradeContainer {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .microsoftPatchMana {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .entertainment {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .kalyaniIshaNetralayaRadhaK {
+    gap: 26px 51.099999999999454px;
+  }
+  .food,
+  .food1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .hereAreSome {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .kalyaniIshaNetralayaRadhaKParent {
+    gap: 17px 33.59999999999991px;
+  }
+}
