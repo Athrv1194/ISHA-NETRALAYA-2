@@ -1,0 +1,8 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/book-an-appointment": "pages/book-an-appointment.js",
+  "/": "pages/index.js",
+  "/s-e-l-f-r-e-g-i-s-t-r-a-t-i-o-n": "pages/s-e-l-f-r-e-g-i-s-t-r-a-t-i-o-n.js"
+}
