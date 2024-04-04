@@ -1,0 +1,31 @@
+.frameContainer,
+.whatIsDiabeticEyeDisease {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsDiabeticEyeDisease {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  gap: 74.09999999999991px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .whatIsDiabeticEyeDisease {
+    gap: 37px 74.09999999999991px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIsDiabeticEyeDisease {
+    gap: 19px 74.09999999999991px;
+  }
+}

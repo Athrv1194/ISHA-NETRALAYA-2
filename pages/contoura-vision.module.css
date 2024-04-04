@@ -1,0 +1,76 @@
+.contouraVisionAlso,
+.inTownFor,
+.marksAnImportant,
+.weHaveOne {
+  font-weight: 500;
+}
+.contouraVisionAlsoContainer {
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1637px;
+  left: 188px;
+  letter-spacing: 3px;
+  line-height: 27px;
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+  font-family: var(--font-montserrat);
+}
+.benefitsOfContoura,
+.contouraVisionSurgery {
+  margin: 0 !important;
+  position: absolute;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.contouraVisionSurgery {
+  width: 872px;
+  top: 1551px;
+  left: 182px;
+  font-size: var(--font-size-29xl);
+  display: inline-block;
+}
+.benefitsOfContoura {
+  bottom: 1883px;
+  left: 180px;
+  font-size: var(--font-size-13xl);
+}
+.contouraVision {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1050px) {
+  .contouraVisionSurgery {
+    font-size: var(--font-size-19xl);
+    line-height: 51px;
+  }
+  .benefitsOfContoura {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contouraVisionSurgery {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .benefitsOfContoura {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,148 @@
+.buttonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkgreen);
+  width: 100%;
+  height: 100%;
+}
+.maskGroupIcon,
+.ourStory {
+  position: absolute;
+  top: 12px;
+}
+.ourStory {
+  left: 38px;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+}
+.maskGroupIcon {
+  left: 170px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.button {
+  width: 235px;
+  height: 51px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.leaf471 {
+  width: 791.1px;
+  height: 791.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -2252.1px;
+  left: -246.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(13.04deg);
+  transform-origin: 0 0;
+}
+.backgroundParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-109xl);
+  max-width: 100%;
+}
+.buttonItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkgreen);
+  width: 100%;
+  height: 100%;
+}
+.readMore {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  letter-spacing: 0.1em;
+  line-height: 27.51px;
+}
+.maskGroupIcon1 {
+  position: absolute;
+  top: 12px;
+  left: 177px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.balanceHospitality,
+.button1 {
+  width: 250px;
+  height: 51px;
+  position: relative;
+  display: none;
+  z-index: 3;
+}
+.balanceHospitality {
+  width: 584px;
+  height: 28px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  color: var(--color-darkolivegreen-500);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 4;
+}
+.vectorIcon {
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  display: none;
+  z-index: 5;
+}
+.aboutYou,
+.goldenRatioGridHome,
+.vectorIcon {
+  position: relative;
+  overflow: hidden;
+}
+.goldenRatioGridHome {
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  display: none;
+  z-index: 7;
+}
+.aboutYou {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-223xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .backgroundParent {
+    gap: 64px 128px;
+  }
+  .aboutYou {
+    gap: 121px 242px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .backgroundParent {
+    gap: 32px 128px;
+  }
+  .balanceHospitality {
+    font-size: var(--font-size-base);
+    line-height: 23px;
+  }
+  .aboutYou {
+    gap: 60px 242px;
+  }
+}

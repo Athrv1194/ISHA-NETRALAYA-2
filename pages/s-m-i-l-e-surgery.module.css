@@ -1,0 +1,261 @@
+.correctsVisionImpairments,
+.representsAnAdvancement,
+.smallIncisionLenticule {
+  font-weight: 500;
+}
+.bestHospitalFor,
+.smileSurgerySmallIncisionContainer {
+  margin: 0 !important;
+  position: absolute;
+  left: 188px;
+  display: inline-block;
+  z-index: 1;
+}
+.smileSurgerySmallIncisionContainer {
+  width: 783px;
+  height: 216px;
+  top: 1637px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+}
+.bestHospitalFor {
+  width: 1047px;
+  top: 1558px;
+  font-size: var(--font-size-29xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+}
+.smileIsA {
+  font-weight: 500;
+}
+.smileIsAContainer {
+  width: 783px;
+  height: 216px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1913px;
+  left: 188px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  display: inline-block;
+  z-index: 1;
+}
+.femtosecondLaserApplication,
+.lenticuleRemovalThroughA,
+.localAnaesthesiaEnsuringA,
+.smileSurgeryAt {
+  margin: 0;
+}
+.smileSurgeryAtContainer {
+  height: 216px;
+  width: 783px;
+  position: absolute;
+  margin: 0 !important;
+  top: -205.9px;
+  right: -34.4px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.advantagesOfSmile {
+  margin: 0;
+  height: -1px;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.advantagesOfSmileSurgeryWrapper {
+  height: -0.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.minimallyInvasive {
+  font-family: var(--font-montserrat);
+}
+.withASmaller {
+  font-weight: 500;
+}
+.minimallyInvasiveWithASma1 {
+  margin-bottom: 0;
+}
+.idealForPatients,
+.reducedDryEye {
+  font-family: var(--font-montserrat);
+}
+.idealForPatients {
+  font-weight: 500;
+}
+.reducedDryEyeSymptomsIdea {
+  margin-bottom: 0;
+}
+.mostPatientsReport,
+.rapidRecovery {
+  font-family: var(--font-montserrat);
+}
+.mostPatientsReport {
+  font-weight: 500;
+}
+.rapidRecoveryMostPatients {
+  margin-bottom: 0;
+}
+.highPrecision,
+.theFemtosecondLaser {
+  font-family: var(--font-montserrat);
+}
+.theFemtosecondLaser {
+  font-weight: 500;
+}
+.highPrecisionTheFemtosecon {
+  margin-bottom: 0;
+}
+.postOperativeCare,
+.postSurgeryPatientsCan {
+  font-family: var(--font-montserrat);
+}
+.postSurgeryPatientsCan {
+  font-weight: 500;
+}
+.postOperativeCarePostSurg {
+  margin-bottom: 0;
+}
+.minimallyInvasiveWithASma {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.p {
+  margin: 0;
+  font-weight: 500;
+}
+.minimallyInvasiveWithAContainer {
+  align-self: stretch;
+  height: 361px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  color: var(--color-darkolivegreen-600);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: var(--font-montserrat);
+}
+.frameParent {
+  width: 783px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 102%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.smileSurgeryAtIshaNetralayParent {
+  height: 372.6px;
+  width: 767.4px;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.mainMenuBar,
+.mainMenuBarInner,
+.smileSurgery,
+.smileSurgeryAtIshaNetralayParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainMenuBarInner {
+  flex-direction: row;
+  padding: 0 165px 0 var(--padding-131xl);
+  box-sizing: border-box;
+  min-height: 389px;
+  max-width: 100%;
+}
+.mainMenuBar,
+.smileSurgery {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+.mainMenuBar {
+  width: 1261px;
+  padding: 0 var(--padding-xl) 283px 0;
+  box-sizing: border-box;
+  gap: var(--gap-109xl);
+  max-width: 100%;
+}
+.smileSurgery {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .mainMenuBarInner {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+  .mainMenuBar {
+    gap: 64px 128px;
+    padding-bottom: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .bestHospitalFor {
+    font-size: var(--font-size-19xl);
+    line-height: 51px;
+  }
+  .advantagesOfSmile {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainMenuBarInner {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+  .mainMenuBar {
+    gap: 32px 128px;
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestHospitalFor {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .advantagesOfSmile {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .mainMenuBar {
+    gap: 16px 128px;
+  }
+}

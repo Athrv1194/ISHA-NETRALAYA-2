@@ -1,0 +1,39 @@
+.goldenRatioGridHome {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.bgnavParent,
+.whatIsGlaucomaWhoShould {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bgnavParent {
+  align-self: stretch;
+  gap: 27.100000000000364px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsGlaucomaWhoShould {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  gap: 403.0999999999999px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 900px) {
+  .whatIsGlaucomaWhoShould {
+    gap: 202px 403.0999999999999px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIsGlaucomaWhoShould {
+    gap: 101px 403.0999999999999px;
+  }
+}

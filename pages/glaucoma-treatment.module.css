@@ -1,0 +1,21 @@
+.rectangleContainer {
+  width: 758px;
+  height: 1110px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1546px;
+  left: -19px;
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.glaucomaTreatment {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}

@@ -1,0 +1,143 @@
+.lasikOrLaserAssisted,
+.ourExceptionalTeam {
+  font-weight: 500;
+}
+.bestLasikSurgery,
+.lasikOrLaserAssistedContainer {
+  margin: 0 !important;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+.lasikOrLaserAssistedContainer {
+  width: 783px;
+  height: 216px;
+  top: 1637px;
+  left: 188px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+}
+.bestLasikSurgery {
+  width: 761px;
+  top: 1561px;
+  left: 180px;
+  font-size: var(--font-size-29xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+}
+.advancedTechnologyEquipped,
+.expertiseOurDoctorsAre {
+  margin-bottom: 0;
+}
+.expertiseOurDoctorsAreSom {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.expertiseOurDoctorsAreContainer,
+.understandingLasikAt {
+  margin: 0 !important;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+.expertiseOurDoctorsAreContainer {
+  width: 783px;
+  height: 216px;
+  top: 1917px;
+  left: 179px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+}
+.understandingLasikAt {
+  width: 560px;
+  top: 2160px;
+  left: 188px;
+  font-size: var(--font-size-13xl);
+  line-height: 133.33%;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-olivedrab-200);
+  text-align: center;
+}
+.cornealReshapingComputerCo,
+.flapCreationUsingA,
+.preLasikEvaluationUsingHi1 {
+  margin-bottom: 0;
+  position: relative;
+  top: -93px;
+}
+.preLasikEvaluationUsingHi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.preLasikEvaluationUsingHiContainer {
+  width: 783px;
+  height: 216px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 1688px;
+  left: 180px;
+  letter-spacing: 3px;
+  line-height: 29.12px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.iterationNodes,
+.lasikSurgery {
+  display: flex;
+  align-items: flex-start;
+}
+.iterationNodes {
+  width: 1101px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 155.84000000000017px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lasikSurgery {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkolivegreen-600);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .bestLasikSurgery {
+    font-size: var(--font-size-19xl);
+    line-height: 51px;
+  }
+  .understandingLasikAt {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .iterationNodes {
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestLasikSurgery {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .understandingLasikAt {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,132 @@
+.bookAnAppointment1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+  left: -40px;
+}
+.backgroundIcon,
+.rectangleShape {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 5000px;
+  height: 840px;
+}
+.rectangleShape {
+  left: 0;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.icon,
+.maskGroupIcon {
+  position: absolute;
+  z-index: 2;
+}
+.maskGroupIcon {
+  top: 77px;
+  left: 133px;
+  width: 47px;
+  height: 47px;
+  object-fit: contain;
+}
+.icon {
+  top: 68px;
+  left: 557px;
+  width: 89px;
+  height: 62.9px;
+  cursor: pointer;
+}
+.bookingLabel {
+  height: 991px;
+  width: 1455px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -719.9px;
+  left: -463.3px;
+}
+.mainFrame {
+  align-self: stretch;
+  height: 48.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.netralayaText {
+  width: 523.7px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appointmentComponent,
+.bookAnAppointment,
+.netralayaText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointmentComponent {
+  flex: 1;
+  flex-direction: column;
+  padding: 70.89999999999964px 446px 213.0999999999999px 458px;
+  box-sizing: border-box;
+  gap: 62.55000000000018px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-olivedrab-200);
+  font-family: var(--font-playfair-display);
+}
+.bookAnAppointment {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .appointmentComponent {
+    padding-top: var(--padding-27xl);
+    padding-bottom: 139px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .bookAnAppointment1 {
+    font-size: var(--font-size-21xl);
+  }
+  .appointmentComponent {
+    gap: 31px 62.55000000000018px;
+    padding-left: var(--padding-210xl);
+    padding-right: 223px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .appointmentComponent {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookAnAppointment1 {
+    font-size: var(--font-size-11xl);
+  }
+  .appointmentComponent {
+    gap: 16px 62.55000000000018px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

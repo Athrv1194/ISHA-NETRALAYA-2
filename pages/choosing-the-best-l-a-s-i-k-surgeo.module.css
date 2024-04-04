@@ -1,0 +1,280 @@
+.foodCategoryWrapper,
+.navParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.foodCategoryWrapper {
+  width: 1255px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.navParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  flex-shrink: 0;
+}
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.ourBranches {
+  position: absolute;
+  top: 89px;
+  left: 1019px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 698px;
+  height: 54px;
+  z-index: 2;
+}
+.kalyan {
+  font-family: var(--font-montserrat);
+}
+.kalyanIshaNetralayaRadh {
+  margin: 0;
+}
+.kalyanIshaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  z-index: 3;
+}
+.frameParent,
+.kalyanIshaNetralayaRadhWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kalyanIshaNetralayaRadhWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+}
+.frameParent {
+  position: absolute;
+  top: 136px;
+  left: 1017px;
+  width: 283px;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-montserrat);
+}
+.home {
+  width: 88px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.articlesBlogs,
+.contactUs,
+.latestUpdates,
+.ourDoctors {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.homeParent {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.ourServices {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourServicesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cataractTreatment1 {
+  margin: 0;
+}
+.cataractTreatment,
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contouraVision,
+.lasikSurgery,
+.smileSurgery {
+  z-index: 1;
+}
+.contouraVision,
+.smileSurgery {
+  z-index: 2;
+}
+.contouraVision {
+  z-index: 1;
+}
+.retinaTreatment1 {
+  margin: 0;
+}
+.retinaTreatment {
+  align-self: stretch;
+  height: 21px;
+  position: relative;
+  line-height: 24.72px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cataractTreatmentParent {
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 9.75px;
+  margin-top: -7px;
+  font-size: var(--font-size-base-3);
+  color: var(--color-lightgray);
+  font-family: var(--font-montserrat);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameGroup,
+.homeSections,
+.homeSectionsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.homeSectionsInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 454px;
+  color: var(--color-white);
+}
+.homeSections {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 73px;
+}
+.aboutUs {
+  width: 305px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.footerLinks {
+  position: absolute;
+  top: 85px;
+  left: 465px;
+  width: 971px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  color: var(--color-whitesmoke-200);
+}
+.pediatricOphthalmology {
+  position: absolute;
+  top: 290px;
+  left: 737px;
+  font-size: var(--font-size-base-3);
+  line-height: 24.72px;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  width: 281px;
+  height: 21px;
+  z-index: 2;
+}
+.footer {
+  align-self: stretch;
+  height: 473px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl-7);
+  color: var(--color-lightgray);
+  font-family: var(--font-playfair-display);
+}
+.choosingTheBestLasikSurgeo {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 66.09999999999991px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .footer {
+    height: auto;
+    min-height: 473;
+  }
+}
+@media screen and (max-width: 750px) {
+  .homeSectionsInner {
+    min-width: 100%;
+  }
+  .choosingTheBestLasikSurgeo {
+    gap: 33px 66.09999999999991px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs,
+  .articlesBlogs,
+  .contactUs,
+  .home,
+  .latestUpdates,
+  .ourBranches,
+  .ourDoctors,
+  .ourServices {
+    font-size: var(--font-size-xl);
+  }
+  .choosingTheBestLasikSurgeo {
+    gap: 17px 66.09999999999991px;
+  }
+}
